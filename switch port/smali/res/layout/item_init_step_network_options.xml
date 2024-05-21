@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item_container" android:background="@drawable/shape_ff4d00_r10" android:layout_width="wrap_content" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_item_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <TextView android:textSize="24.0sp" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_item_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+    <Space android:layout_width="5.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="38.5dip" android:layout_height="23.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/v_track" android:background="@drawable/shape_setting_switch_track" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    <View android:id="@id/v_thumb" android:background="@drawable/shape_setting_switch_thumb" android:layout_width="23.0dip" android:layout_height="23.0dip" />
+</FrameLayout>

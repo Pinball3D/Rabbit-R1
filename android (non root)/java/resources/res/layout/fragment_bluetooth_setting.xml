@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tech.rabbit.r1launcher.widget.UntouchableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <tech.rabbit.r1launcher.widget.SettingTitle
+        android:id="@+id/st"
+        android:background="@drawable/shape_title_item_background_selector"
+        android:nextFocusDown="@+id/rv"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="3dp"
+        app:st_focus_title="@string/settings"
+        app:st_normal_title="@string/bluetooth"/>
+    <com.rubensousa.dpadrecyclerview.DpadRecyclerView
+        android:id="@+id/rv"
+        android:focusableInTouchMode="true"
+        android:nextFocusUp="@+id/st"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dpadRecyclerViewSmoothFocusChangesEnabled="false"/>
+</tech.rabbit.r1launcher.widget.UntouchableLinearLayout>

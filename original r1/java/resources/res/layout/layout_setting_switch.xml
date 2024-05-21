@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="38.5dp"
+    android:layout_height="23dp">
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@+id/v_track"
+        android:background="@drawable/shape_setting_switch_track"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"/>
+    <View
+        android:id="@+id/v_thumb"
+        android:background="@drawable/shape_setting_switch_thumb"
+        android:layout_width="23dp"
+        android:layout_height="23dp"/>
+</FrameLayout>

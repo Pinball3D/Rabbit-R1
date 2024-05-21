@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="3.0dip" android:paddingEnd="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.rabbit.r1launcher.widget.CanBackLabelView android:id="@id/cblv_title" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusDown="@id/tv_cellular" android:layout_width="fill_parent" android:layout_height="36.0dip" app:canBackLabelViewFocusedLabel="@string/settings" app:canBackLabelViewUnfocusedLabel="@string/settings_page_network" />
+    <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="24.0sp" android:textColor="@color/selector_000000_ffffff" android:gravity="center_vertical" android:id="@id/tv_cellular" android:tag="toggle" android:background="@drawable/selector_ff4d00_00000000_r10" android:nextFocusUp="@id/cblv_title" android:nextFocusDown="@id/tv_wifi" android:layout_width="fill_parent" android:layout_height="29.0dip" android:text="@string/text_cellular" android:includeFontPadding="false" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" app:drawableEndCompat="@drawable/selector_unfocused_toggle_button">
+        <requestFocus />
+    </androidx.appcompat.widget.AppCompatTextView>
+    <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="24.0sp" android:textColor="@color/selector_000000_ffffff" android:gravity="center_vertical" android:id="@id/tv_wifi" android:tag="toggle" android:background="@drawable/selector_ff4d00_00000000_r10" android:nextFocusUp="@id/tv_cellular" android:nextFocusDown="@id/rv_list" android:layout_width="fill_parent" android:layout_height="29.0dip" android:text="@string/text_wifi" android:includeFontPadding="false" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" app:drawableEndCompat="@drawable/selector_unfocused_toggle_button" />
+    <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <com.rubensousa.dpadrecyclerview.DpadRecyclerView android:orientation="vertical" android:id="@id/rv_list" android:nextFocusUp="@id/tv_wifi" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:dpadRecyclerViewParentAlignmentFraction="0.3" app:dpadRecyclerViewSmoothFocusChangesEnabled="false" />
+</androidx.appcompat.widget.LinearLayoutCompat>

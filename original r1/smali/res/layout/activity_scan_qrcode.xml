@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="260.0dip">
+        <com.journeyapps.barcodescanner.DecoratedBarcodeView android:id="@id/zxing_barcode_scanner" android:layout_width="fill_parent" android:layout_height="260.0dip" app:zxing_preview_scaling_strategy="centerCrop" app:zxing_use_texture_view="false" />
+        <tech.rabbit.r1launcher.initstep.scanqrcode.widget.BorderView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="30.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_tip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="18.0dip" android:includeFontPadding="false" android:fontFamily="@font/power_grotesk_regular" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" android:textFontWeight="300" />
+</LinearLayout>

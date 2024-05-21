@@ -1,0 +1,2354 @@
+{
+  "search_metadata": {
+    "id": "65951ef22bc7d86e41238afc",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/b017d0277c397c6c/65951ef22bc7d86e41238afc.json",
+    "created_at": "2024-01-03 08:46:42 UTC",
+    "processed_at": "2024-01-03 08:46:42 UTC",
+    "google_finance_url": "https://www.google.com/finance/quote/KO:NYSE?hl=en&window=1D",
+    "raw_html_file": "https://serpapi.com/searches/b017d0277c397c6c/65951ef22bc7d86e41238afc.html",
+    "prettify_html_file": "https://serpapi.com/searches/b017d0277c397c6c/65951ef22bc7d86e41238afc.prettify",
+    "total_time_taken": 0.97
+  },
+  "search_parameters": {
+    "engine": "google_finance",
+    "q": "KO:NYSE",
+    "hl": "en",
+    "window": "1D"
+  },
+  "summary": {
+    "title": "Coca-Cola Co",
+    "stock": "KO",
+    "exchange": "NYSE",
+    "price": "USD 59.82",
+    "extracted_price": 59.82,
+    "currency": "USD",
+    "market": {
+      "price": "USD 59.76",
+      "extracted_price": 59.76,
+      "currency": "USD",
+      "price_movement": {
+        "percentage": 1.43,
+        "value": 0.84,
+        "movement": "Up"
+      }
+    },
+    "extensions": [
+      "America/New_York",
+      "USD",
+      "NYSE"
+    ]
+  },
+  "graph": [
+    {
+      "price": 58.78,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:30 AM UTC-05:00",
+      "volume": 100
+    },
+    {
+      "price": 58.755,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:31 AM UTC-05:00",
+      "volume": 357165
+    },
+    {
+      "price": 58.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:32 AM UTC-05:00",
+      "volume": 45484
+    },
+    {
+      "price": 58.76,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:33 AM UTC-05:00",
+      "volume": 25589
+    },
+    {
+      "price": 58.92,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:34 AM UTC-05:00",
+      "volume": 41902
+    },
+    {
+      "price": 58.945,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:35 AM UTC-05:00",
+      "volume": 32496
+    },
+    {
+      "price": 58.875,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:36 AM UTC-05:00",
+      "volume": 21965
+    },
+    {
+      "price": 58.965,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:37 AM UTC-05:00",
+      "volume": 18417
+    },
+    {
+      "price": 58.985,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:38 AM UTC-05:00",
+      "volume": 17165
+    },
+    {
+      "price": 58.9875,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:39 AM UTC-05:00",
+      "volume": 36764
+    },
+    {
+      "price": 58.97,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:40 AM UTC-05:00",
+      "volume": 13631
+    },
+    {
+      "price": 59.005,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:41 AM UTC-05:00",
+      "volume": 28286
+    },
+    {
+      "price": 59.08,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:42 AM UTC-05:00",
+      "volume": 16575
+    },
+    {
+      "price": 59.09,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:43 AM UTC-05:00",
+      "volume": 14519
+    },
+    {
+      "price": 59.065,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:44 AM UTC-05:00",
+      "volume": 44308
+    },
+    {
+      "price": 59.1,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:45 AM UTC-05:00",
+      "volume": 15116
+    },
+    {
+      "price": 59.185,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:46 AM UTC-05:00",
+      "volume": 28442
+    },
+    {
+      "price": 59.215,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:47 AM UTC-05:00",
+      "volume": 32454
+    },
+    {
+      "price": 59.18,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:48 AM UTC-05:00",
+      "volume": 24335
+    },
+    {
+      "price": 59.23,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:49 AM UTC-05:00",
+      "volume": 35058
+    },
+    {
+      "price": 59.235,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:50 AM UTC-05:00",
+      "volume": 32562
+    },
+    {
+      "price": 59.255,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:51 AM UTC-05:00",
+      "volume": 37106
+    },
+    {
+      "price": 59.215,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:52 AM UTC-05:00",
+      "volume": 25491
+    },
+    {
+      "price": 59.19,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:53 AM UTC-05:00",
+      "volume": 71849
+    },
+    {
+      "price": 59.225,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:54 AM UTC-05:00",
+      "volume": 16917
+    },
+    {
+      "price": 59.2201,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:55 AM UTC-05:00",
+      "volume": 17419
+    },
+    {
+      "price": 59.2317,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:56 AM UTC-05:00",
+      "volume": 15940
+    },
+    {
+      "price": 59.275,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:57 AM UTC-05:00",
+      "volume": 20610
+    },
+    {
+      "price": 59.27,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:58 AM UTC-05:00",
+      "volume": 27707
+    },
+    {
+      "price": 59.25,
+      "currency": "USD",
+      "date": "Jan 02 2024, 09:59 AM UTC-05:00",
+      "volume": 28956
+    },
+    {
+      "price": 59.215,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:00 AM UTC-05:00",
+      "volume": 35648
+    },
+    {
+      "price": 59.235,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:01 AM UTC-05:00",
+      "volume": 41344
+    },
+    {
+      "price": 59.2815,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:02 AM UTC-05:00",
+      "volume": 19545
+    },
+    {
+      "price": 59.365,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:03 AM UTC-05:00",
+      "volume": 55548
+    },
+    {
+      "price": 59.345,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:04 AM UTC-05:00",
+      "volume": 43763
+    },
+    {
+      "price": 59.325,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:05 AM UTC-05:00",
+      "volume": 28127
+    },
+    {
+      "price": 59.365,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:06 AM UTC-05:00",
+      "volume": 30927
+    },
+    {
+      "price": 59.37,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:07 AM UTC-05:00",
+      "volume": 26955
+    },
+    {
+      "price": 59.395,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:08 AM UTC-05:00",
+      "volume": 24392
+    },
+    {
+      "price": 59.385,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:09 AM UTC-05:00",
+      "volume": 31581
+    },
+    {
+      "price": 59.38,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:10 AM UTC-05:00",
+      "volume": 22527
+    },
+    {
+      "price": 59.46,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:11 AM UTC-05:00",
+      "volume": 30937
+    },
+    {
+      "price": 59.485,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:12 AM UTC-05:00",
+      "volume": 39480
+    },
+    {
+      "price": 59.505,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:13 AM UTC-05:00",
+      "volume": 60205
+    },
+    {
+      "price": 59.48,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:14 AM UTC-05:00",
+      "volume": 12280
+    },
+    {
+      "price": 59.4795,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:15 AM UTC-05:00",
+      "volume": 13189
+    },
+    {
+      "price": 59.4524,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:16 AM UTC-05:00",
+      "volume": 40090
+    },
+    {
+      "price": 59.485,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:17 AM UTC-05:00",
+      "volume": 22213
+    },
+    {
+      "price": 59.4324,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:18 AM UTC-05:00",
+      "volume": 19634
+    },
+    {
+      "price": 59.47,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:19 AM UTC-05:00",
+      "volume": 32982
+    },
+    {
+      "price": 59.47,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:20 AM UTC-05:00",
+      "volume": 44328
+    },
+    {
+      "price": 59.475,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:21 AM UTC-05:00",
+      "volume": 81908
+    },
+    {
+      "price": 59.465,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:22 AM UTC-05:00",
+      "volume": 18416
+    },
+    {
+      "price": 59.435,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:23 AM UTC-05:00",
+      "volume": 13675
+    },
+    {
+      "price": 59.455,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:24 AM UTC-05:00",
+      "volume": 16836
+    },
+    {
+      "price": 59.4855,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:25 AM UTC-05:00",
+      "volume": 45172
+    },
+    {
+      "price": 59.492,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:26 AM UTC-05:00",
+      "volume": 21490
+    },
+    {
+      "price": 59.475,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:27 AM UTC-05:00",
+      "volume": 13253
+    },
+    {
+      "price": 59.455,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:28 AM UTC-05:00",
+      "volume": 14511
+    },
+    {
+      "price": 59.445,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:29 AM UTC-05:00",
+      "volume": 19665
+    },
+    {
+      "price": 59.495,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:30 AM UTC-05:00",
+      "volume": 16633
+    },
+    {
+      "price": 59.4775,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:31 AM UTC-05:00",
+      "volume": 75245
+    },
+    {
+      "price": 59.485,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:32 AM UTC-05:00",
+      "volume": 26979
+    },
+    {
+      "price": 59.43,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:33 AM UTC-05:00",
+      "volume": 32255
+    },
+    {
+      "price": 59.425,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:34 AM UTC-05:00",
+      "volume": 9454
+    },
+    {
+      "price": 59.44,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:35 AM UTC-05:00",
+      "volume": 47447
+    },
+    {
+      "price": 59.5,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:36 AM UTC-05:00",
+      "volume": 13105
+    },
+    {
+      "price": 59.515,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:37 AM UTC-05:00",
+      "volume": 25912
+    },
+    {
+      "price": 59.5008,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:38 AM UTC-05:00",
+      "volume": 25856
+    },
+    {
+      "price": 59.4973,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:39 AM UTC-05:00",
+      "volume": 21045
+    },
+    {
+      "price": 59.525,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:40 AM UTC-05:00",
+      "volume": 22185
+    },
+    {
+      "price": 59.52,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:41 AM UTC-05:00",
+      "volume": 25526
+    },
+    {
+      "price": 59.56,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:42 AM UTC-05:00",
+      "volume": 31312
+    },
+    {
+      "price": 59.575,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:43 AM UTC-05:00",
+      "volume": 19429
+    },
+    {
+      "price": 59.58,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:44 AM UTC-05:00",
+      "volume": 18920
+    },
+    {
+      "price": 59.575,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:45 AM UTC-05:00",
+      "volume": 15375
+    },
+    {
+      "price": 59.6021,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:46 AM UTC-05:00",
+      "volume": 33966
+    },
+    {
+      "price": 59.635,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:47 AM UTC-05:00",
+      "volume": 71268
+    },
+    {
+      "price": 59.665,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:48 AM UTC-05:00",
+      "volume": 54942
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:49 AM UTC-05:00",
+      "volume": 24752
+    },
+    {
+      "price": 59.7499,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:50 AM UTC-05:00",
+      "volume": 56835
+    },
+    {
+      "price": 59.725,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:51 AM UTC-05:00",
+      "volume": 53200
+    },
+    {
+      "price": 59.7018,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:52 AM UTC-05:00",
+      "volume": 34363
+    },
+    {
+      "price": 59.7121,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:53 AM UTC-05:00",
+      "volume": 28349
+    },
+    {
+      "price": 59.7001,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:54 AM UTC-05:00",
+      "volume": 17828
+    },
+    {
+      "price": 59.65,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:55 AM UTC-05:00",
+      "volume": 13355
+    },
+    {
+      "price": 59.62,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:56 AM UTC-05:00",
+      "volume": 23253
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:57 AM UTC-05:00",
+      "volume": 12212
+    },
+    {
+      "price": 59.61,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:58 AM UTC-05:00",
+      "volume": 43159
+    },
+    {
+      "price": 59.63,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:59 AM UTC-05:00",
+      "volume": 65070
+    },
+    {
+      "price": 59.595,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:00 AM UTC-05:00",
+      "volume": 9998
+    },
+    {
+      "price": 59.58,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:01 AM UTC-05:00",
+      "volume": 21293
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:02 AM UTC-05:00",
+      "volume": 21673
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:03 AM UTC-05:00",
+      "volume": 10860
+    },
+    {
+      "price": 59.5205,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:04 AM UTC-05:00",
+      "volume": 20334
+    },
+    {
+      "price": 59.51,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:05 AM UTC-05:00",
+      "volume": 32350
+    },
+    {
+      "price": 59.52,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:06 AM UTC-05:00",
+      "volume": 28574
+    },
+    {
+      "price": 59.535,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:07 AM UTC-05:00",
+      "volume": 22974
+    },
+    {
+      "price": 59.51,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:08 AM UTC-05:00",
+      "volume": 28567
+    },
+    {
+      "price": 59.525,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:09 AM UTC-05:00",
+      "volume": 31999
+    },
+    {
+      "price": 59.515,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:10 AM UTC-05:00",
+      "volume": 12080
+    },
+    {
+      "price": 59.475,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:11 AM UTC-05:00",
+      "volume": 86754
+    },
+    {
+      "price": 59.485,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:12 AM UTC-05:00",
+      "volume": 23542
+    },
+    {
+      "price": 59.44,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:13 AM UTC-05:00",
+      "volume": 49686
+    },
+    {
+      "price": 59.43,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:14 AM UTC-05:00",
+      "volume": 26377
+    },
+    {
+      "price": 59.41,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:15 AM UTC-05:00",
+      "volume": 29075
+    },
+    {
+      "price": 59.43,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:16 AM UTC-05:00",
+      "volume": 43925
+    },
+    {
+      "price": 59.385,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:17 AM UTC-05:00",
+      "volume": 22236
+    },
+    {
+      "price": 59.4149,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:18 AM UTC-05:00",
+      "volume": 51262
+    },
+    {
+      "price": 59.3707,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:19 AM UTC-05:00",
+      "volume": 9358
+    },
+    {
+      "price": 59.395,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:20 AM UTC-05:00",
+      "volume": 36214
+    },
+    {
+      "price": 59.395,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:21 AM UTC-05:00",
+      "volume": 20585
+    },
+    {
+      "price": 59.42,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:22 AM UTC-05:00",
+      "volume": 23690
+    },
+    {
+      "price": 59.425,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:23 AM UTC-05:00",
+      "volume": 23265
+    },
+    {
+      "price": 59.435,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:24 AM UTC-05:00",
+      "volume": 13333
+    },
+    {
+      "price": 59.435,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:25 AM UTC-05:00",
+      "volume": 32473
+    },
+    {
+      "price": 59.375,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:26 AM UTC-05:00",
+      "volume": 19417
+    },
+    {
+      "price": 59.365,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:27 AM UTC-05:00",
+      "volume": 68485
+    },
+    {
+      "price": 59.37,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:28 AM UTC-05:00",
+      "volume": 18402
+    },
+    {
+      "price": 59.37,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:29 AM UTC-05:00",
+      "volume": 24191
+    },
+    {
+      "price": 59.41,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:30 AM UTC-05:00",
+      "volume": 42623
+    },
+    {
+      "price": 59.42,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:31 AM UTC-05:00",
+      "volume": 5234
+    },
+    {
+      "price": 59.43,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:32 AM UTC-05:00",
+      "volume": 14633
+    },
+    {
+      "price": 59.5,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:33 AM UTC-05:00",
+      "volume": 29895
+    },
+    {
+      "price": 59.495,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:34 AM UTC-05:00",
+      "volume": 33809
+    },
+    {
+      "price": 59.49,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:35 AM UTC-05:00",
+      "volume": 23528
+    },
+    {
+      "price": 59.45,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:36 AM UTC-05:00",
+      "volume": 14816
+    },
+    {
+      "price": 59.455,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:37 AM UTC-05:00",
+      "volume": 8900
+    },
+    {
+      "price": 59.465,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:38 AM UTC-05:00",
+      "volume": 10866
+    },
+    {
+      "price": 59.455,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:39 AM UTC-05:00",
+      "volume": 5729
+    },
+    {
+      "price": 59.48,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:40 AM UTC-05:00",
+      "volume": 39225
+    },
+    {
+      "price": 59.48,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:41 AM UTC-05:00",
+      "volume": 8679
+    },
+    {
+      "price": 59.455,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:42 AM UTC-05:00",
+      "volume": 20890
+    },
+    {
+      "price": 59.505,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:43 AM UTC-05:00",
+      "volume": 16134
+    },
+    {
+      "price": 59.495,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:44 AM UTC-05:00",
+      "volume": 17591
+    },
+    {
+      "price": 59.475,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:45 AM UTC-05:00",
+      "volume": 8063
+    },
+    {
+      "price": 59.5,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:46 AM UTC-05:00",
+      "volume": 13783
+    },
+    {
+      "price": 59.54,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:47 AM UTC-05:00",
+      "volume": 27538
+    },
+    {
+      "price": 59.5338,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:48 AM UTC-05:00",
+      "volume": 36542
+    },
+    {
+      "price": 59.515,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:49 AM UTC-05:00",
+      "volume": 10916
+    },
+    {
+      "price": 59.54,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:50 AM UTC-05:00",
+      "volume": 23610
+    },
+    {
+      "price": 59.535,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:51 AM UTC-05:00",
+      "volume": 4946
+    },
+    {
+      "price": 59.555,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:52 AM UTC-05:00",
+      "volume": 9505
+    },
+    {
+      "price": 59.58,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:53 AM UTC-05:00",
+      "volume": 20180
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:54 AM UTC-05:00",
+      "volume": 35921
+    },
+    {
+      "price": 59.595,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:55 AM UTC-05:00",
+      "volume": 18885
+    },
+    {
+      "price": 59.6,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:56 AM UTC-05:00",
+      "volume": 9581
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:57 AM UTC-05:00",
+      "volume": 27349
+    },
+    {
+      "price": 59.555,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:58 AM UTC-05:00",
+      "volume": 21734
+    },
+    {
+      "price": 59.565,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:59 AM UTC-05:00",
+      "volume": 15598
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:00 PM UTC-05:00",
+      "volume": 71738
+    },
+    {
+      "price": 59.6,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:01 PM UTC-05:00",
+      "volume": 12397
+    },
+    {
+      "price": 59.595,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:02 PM UTC-05:00",
+      "volume": 15881
+    },
+    {
+      "price": 59.585,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:03 PM UTC-05:00",
+      "volume": 13379
+    },
+    {
+      "price": 59.585,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:04 PM UTC-05:00",
+      "volume": 11274
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:05 PM UTC-05:00",
+      "volume": 8458
+    },
+    {
+      "price": 59.5501,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:06 PM UTC-05:00",
+      "volume": 11413
+    },
+    {
+      "price": 59.535,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:07 PM UTC-05:00",
+      "volume": 13040
+    },
+    {
+      "price": 59.545,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:08 PM UTC-05:00",
+      "volume": 11472
+    },
+    {
+      "price": 59.54,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:09 PM UTC-05:00",
+      "volume": 2886
+    },
+    {
+      "price": 59.5422,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:10 PM UTC-05:00",
+      "volume": 2507
+    },
+    {
+      "price": 59.56,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:11 PM UTC-05:00",
+      "volume": 25950
+    },
+    {
+      "price": 59.545,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:12 PM UTC-05:00",
+      "volume": 20936
+    },
+    {
+      "price": 59.555,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:13 PM UTC-05:00",
+      "volume": 12864
+    },
+    {
+      "price": 59.565,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:14 PM UTC-05:00",
+      "volume": 13033
+    },
+    {
+      "price": 59.54,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:15 PM UTC-05:00",
+      "volume": 24874
+    },
+    {
+      "price": 59.54,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:16 PM UTC-05:00",
+      "volume": 9917
+    },
+    {
+      "price": 59.54,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:17 PM UTC-05:00",
+      "volume": 13107
+    },
+    {
+      "price": 59.55,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:18 PM UTC-05:00",
+      "volume": 23623
+    },
+    {
+      "price": 59.551,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:19 PM UTC-05:00",
+      "volume": 10327
+    },
+    {
+      "price": 59.545,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:20 PM UTC-05:00",
+      "volume": 18677
+    },
+    {
+      "price": 59.56,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:21 PM UTC-05:00",
+      "volume": 22300
+    },
+    {
+      "price": 59.585,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:22 PM UTC-05:00",
+      "volume": 14521
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:23 PM UTC-05:00",
+      "volume": 7462
+    },
+    {
+      "price": 59.585,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:24 PM UTC-05:00",
+      "volume": 22929
+    },
+    {
+      "price": 59.595,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:25 PM UTC-05:00",
+      "volume": 41266
+    },
+    {
+      "price": 59.6,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:26 PM UTC-05:00",
+      "volume": 14170
+    },
+    {
+      "price": 59.61,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:27 PM UTC-05:00",
+      "volume": 21126
+    },
+    {
+      "price": 59.6,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:28 PM UTC-05:00",
+      "volume": 8757
+    },
+    {
+      "price": 59.635,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:29 PM UTC-05:00",
+      "volume": 10892
+    },
+    {
+      "price": 59.63,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:30 PM UTC-05:00",
+      "volume": 4871
+    },
+    {
+      "price": 59.655,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:31 PM UTC-05:00",
+      "volume": 7398
+    },
+    {
+      "price": 59.6353,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:32 PM UTC-05:00",
+      "volume": 13847
+    },
+    {
+      "price": 59.625,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:33 PM UTC-05:00",
+      "volume": 7330
+    },
+    {
+      "price": 59.61,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:34 PM UTC-05:00",
+      "volume": 12019
+    },
+    {
+      "price": 59.63,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:35 PM UTC-05:00",
+      "volume": 9076
+    },
+    {
+      "price": 59.6412,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:36 PM UTC-05:00",
+      "volume": 7833
+    },
+    {
+      "price": 59.655,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:37 PM UTC-05:00",
+      "volume": 3648
+    },
+    {
+      "price": 59.67,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:38 PM UTC-05:00",
+      "volume": 3889
+    },
+    {
+      "price": 59.6849,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:39 PM UTC-05:00",
+      "volume": 9937
+    },
+    {
+      "price": 59.67,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:40 PM UTC-05:00",
+      "volume": 22933
+    },
+    {
+      "price": 59.69,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:41 PM UTC-05:00",
+      "volume": 3856
+    },
+    {
+      "price": 59.675,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:42 PM UTC-05:00",
+      "volume": 9511
+    },
+    {
+      "price": 59.6578,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:43 PM UTC-05:00",
+      "volume": 8465
+    },
+    {
+      "price": 59.6562,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:44 PM UTC-05:00",
+      "volume": 9613
+    },
+    {
+      "price": 59.665,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:45 PM UTC-05:00",
+      "volume": 7247
+    },
+    {
+      "price": 59.665,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:46 PM UTC-05:00",
+      "volume": 13190
+    },
+    {
+      "price": 59.685,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:47 PM UTC-05:00",
+      "volume": 7391
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:48 PM UTC-05:00",
+      "volume": 9705
+    },
+    {
+      "price": 59.675,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:49 PM UTC-05:00",
+      "volume": 14086
+    },
+    {
+      "price": 59.6711,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:50 PM UTC-05:00",
+      "volume": 4075
+    },
+    {
+      "price": 59.66,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:51 PM UTC-05:00",
+      "volume": 4523
+    },
+    {
+      "price": 59.65,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:52 PM UTC-05:00",
+      "volume": 5364
+    },
+    {
+      "price": 59.655,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:53 PM UTC-05:00",
+      "volume": 12657
+    },
+    {
+      "price": 59.675,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:54 PM UTC-05:00",
+      "volume": 16997
+    },
+    {
+      "price": 59.68,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:55 PM UTC-05:00",
+      "volume": 7846
+    },
+    {
+      "price": 59.675,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:56 PM UTC-05:00",
+      "volume": 2432
+    },
+    {
+      "price": 59.6834,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:57 PM UTC-05:00",
+      "volume": 12130
+    },
+    {
+      "price": 59.675,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:58 PM UTC-05:00",
+      "volume": 14916
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:59 PM UTC-05:00",
+      "volume": 6708
+    },
+    {
+      "price": 59.7,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:00 PM UTC-05:00",
+      "volume": 5219
+    },
+    {
+      "price": 59.7047,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:01 PM UTC-05:00",
+      "volume": 3276
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:02 PM UTC-05:00",
+      "volume": 20601
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:03 PM UTC-05:00",
+      "volume": 8115
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:04 PM UTC-05:00",
+      "volume": 9362
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:05 PM UTC-05:00",
+      "volume": 6393
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:06 PM UTC-05:00",
+      "volume": 16058
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:07 PM UTC-05:00",
+      "volume": 22917
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:08 PM UTC-05:00",
+      "volume": 5672
+    },
+    {
+      "price": 59.7095,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:09 PM UTC-05:00",
+      "volume": 3149
+    },
+    {
+      "price": 59.72,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:10 PM UTC-05:00",
+      "volume": 25299
+    },
+    {
+      "price": 59.7199,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:11 PM UTC-05:00",
+      "volume": 7360
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:12 PM UTC-05:00",
+      "volume": 8201
+    },
+    {
+      "price": 59.7298,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:13 PM UTC-05:00",
+      "volume": 13813
+    },
+    {
+      "price": 59.72,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:14 PM UTC-05:00",
+      "volume": 43916
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:15 PM UTC-05:00",
+      "volume": 17311
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:16 PM UTC-05:00",
+      "volume": 7317
+    },
+    {
+      "price": 59.685,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:17 PM UTC-05:00",
+      "volume": 10842
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:18 PM UTC-05:00",
+      "volume": 10464
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:19 PM UTC-05:00",
+      "volume": 12466
+    },
+    {
+      "price": 59.7,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:20 PM UTC-05:00",
+      "volume": 6372
+    },
+    {
+      "price": 59.6809,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:21 PM UTC-05:00",
+      "volume": 13229
+    },
+    {
+      "price": 59.66,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:22 PM UTC-05:00",
+      "volume": 10451
+    },
+    {
+      "price": 59.64,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:23 PM UTC-05:00",
+      "volume": 3042
+    },
+    {
+      "price": 59.635,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:24 PM UTC-05:00",
+      "volume": 10199
+    },
+    {
+      "price": 59.6483,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:25 PM UTC-05:00",
+      "volume": 15530
+    },
+    {
+      "price": 59.645,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:26 PM UTC-05:00",
+      "volume": 6774
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:27 PM UTC-05:00",
+      "volume": 11433
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:28 PM UTC-05:00",
+      "volume": 9797
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:29 PM UTC-05:00",
+      "volume": 6003
+    },
+    {
+      "price": 59.675,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:30 PM UTC-05:00",
+      "volume": 8897
+    },
+    {
+      "price": 59.65,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:31 PM UTC-05:00",
+      "volume": 6479
+    },
+    {
+      "price": 59.6462,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:32 PM UTC-05:00",
+      "volume": 7489
+    },
+    {
+      "price": 59.63,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:33 PM UTC-05:00",
+      "volume": 9847
+    },
+    {
+      "price": 59.655,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:34 PM UTC-05:00",
+      "volume": 14722
+    },
+    {
+      "price": 59.67,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:35 PM UTC-05:00",
+      "volume": 13274
+    },
+    {
+      "price": 59.67,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:36 PM UTC-05:00",
+      "volume": 6282
+    },
+    {
+      "price": 59.665,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:37 PM UTC-05:00",
+      "volume": 14184
+    },
+    {
+      "price": 59.68,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:38 PM UTC-05:00",
+      "volume": 11131
+    },
+    {
+      "price": 59.69,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:39 PM UTC-05:00",
+      "volume": 10565
+    },
+    {
+      "price": 59.69,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:40 PM UTC-05:00",
+      "volume": 8138
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:41 PM UTC-05:00",
+      "volume": 17510
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:42 PM UTC-05:00",
+      "volume": 8163
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:43 PM UTC-05:00",
+      "volume": 31730
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:44 PM UTC-05:00",
+      "volume": 12716
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:45 PM UTC-05:00",
+      "volume": 26558
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:46 PM UTC-05:00",
+      "volume": 14925
+    },
+    {
+      "price": 59.68,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:47 PM UTC-05:00",
+      "volume": 22896
+    },
+    {
+      "price": 59.69,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:48 PM UTC-05:00",
+      "volume": 8810
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:49 PM UTC-05:00",
+      "volume": 10230
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:50 PM UTC-05:00",
+      "volume": 11181
+    },
+    {
+      "price": 59.72,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:51 PM UTC-05:00",
+      "volume": 10997
+    },
+    {
+      "price": 59.712,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:52 PM UTC-05:00",
+      "volume": 9534
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:53 PM UTC-05:00",
+      "volume": 6325
+    },
+    {
+      "price": 59.7,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:54 PM UTC-05:00",
+      "volume": 13252
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:55 PM UTC-05:00",
+      "volume": 8268
+    },
+    {
+      "price": 59.72,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:56 PM UTC-05:00",
+      "volume": 22154
+    },
+    {
+      "price": 59.695,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:57 PM UTC-05:00",
+      "volume": 12144
+    },
+    {
+      "price": 59.7,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:58 PM UTC-05:00",
+      "volume": 13414
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:59 PM UTC-05:00",
+      "volume": 7686
+    },
+    {
+      "price": 59.725,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:00 PM UTC-05:00",
+      "volume": 5771
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:01 PM UTC-05:00",
+      "volume": 14180
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:02 PM UTC-05:00",
+      "volume": 13037
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:03 PM UTC-05:00",
+      "volume": 6565
+    },
+    {
+      "price": 59.74,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:04 PM UTC-05:00",
+      "volume": 48196
+    },
+    {
+      "price": 59.741,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:05 PM UTC-05:00",
+      "volume": 8644
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:06 PM UTC-05:00",
+      "volume": 29101
+    },
+    {
+      "price": 59.7338,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:07 PM UTC-05:00",
+      "volume": 8359
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:08 PM UTC-05:00",
+      "volume": 12514
+    },
+    {
+      "price": 59.72,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:09 PM UTC-05:00",
+      "volume": 4177
+    },
+    {
+      "price": 59.7098,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:10 PM UTC-05:00",
+      "volume": 22756
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:11 PM UTC-05:00",
+      "volume": 21011
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:12 PM UTC-05:00",
+      "volume": 7274
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:13 PM UTC-05:00",
+      "volume": 4109
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:14 PM UTC-05:00",
+      "volume": 11871
+    },
+    {
+      "price": 59.712,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:15 PM UTC-05:00",
+      "volume": 5322
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:16 PM UTC-05:00",
+      "volume": 20008
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:17 PM UTC-05:00",
+      "volume": 26385
+    },
+    {
+      "price": 59.74,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:18 PM UTC-05:00",
+      "volume": 52727
+    },
+    {
+      "price": 59.755,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:19 PM UTC-05:00",
+      "volume": 8280
+    },
+    {
+      "price": 59.775,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:20 PM UTC-05:00",
+      "volume": 19225
+    },
+    {
+      "price": 59.79,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:21 PM UTC-05:00",
+      "volume": 13893
+    },
+    {
+      "price": 59.775,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:22 PM UTC-05:00",
+      "volume": 11808
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:23 PM UTC-05:00",
+      "volume": 24208
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:24 PM UTC-05:00",
+      "volume": 8101
+    },
+    {
+      "price": 59.7228,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:25 PM UTC-05:00",
+      "volume": 12294
+    },
+    {
+      "price": 59.72,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:26 PM UTC-05:00",
+      "volume": 9263
+    },
+    {
+      "price": 59.735,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:27 PM UTC-05:00",
+      "volume": 4250
+    },
+    {
+      "price": 59.7315,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:28 PM UTC-05:00",
+      "volume": 9104
+    },
+    {
+      "price": 59.7353,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:29 PM UTC-05:00",
+      "volume": 7783
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:30 PM UTC-05:00",
+      "volume": 7085
+    },
+    {
+      "price": 59.77,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:31 PM UTC-05:00",
+      "volume": 12690
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:32 PM UTC-05:00",
+      "volume": 13612
+    },
+    {
+      "price": 59.76,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:33 PM UTC-05:00",
+      "volume": 16716
+    },
+    {
+      "price": 59.77,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:34 PM UTC-05:00",
+      "volume": 16080
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:35 PM UTC-05:00",
+      "volume": 23543
+    },
+    {
+      "price": 59.735,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:36 PM UTC-05:00",
+      "volume": 8492
+    },
+    {
+      "price": 59.74,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:37 PM UTC-05:00",
+      "volume": 7925
+    },
+    {
+      "price": 59.765,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:38 PM UTC-05:00",
+      "volume": 10925
+    },
+    {
+      "price": 59.765,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:39 PM UTC-05:00",
+      "volume": 6555
+    },
+    {
+      "price": 59.77,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:40 PM UTC-05:00",
+      "volume": 19521
+    },
+    {
+      "price": 59.77,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:41 PM UTC-05:00",
+      "volume": 8507
+    },
+    {
+      "price": 59.79,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:42 PM UTC-05:00",
+      "volume": 18965
+    },
+    {
+      "price": 59.79,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:43 PM UTC-05:00",
+      "volume": 18002
+    },
+    {
+      "price": 59.78,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:44 PM UTC-05:00",
+      "volume": 20906
+    },
+    {
+      "price": 59.77,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:45 PM UTC-05:00",
+      "volume": 9025
+    },
+    {
+      "price": 59.755,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:46 PM UTC-05:00",
+      "volume": 8411
+    },
+    {
+      "price": 59.76,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:47 PM UTC-05:00",
+      "volume": 12575
+    },
+    {
+      "price": 59.75,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:48 PM UTC-05:00",
+      "volume": 7718
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:49 PM UTC-05:00",
+      "volume": 13359
+    },
+    {
+      "price": 59.755,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:50 PM UTC-05:00",
+      "volume": 30138
+    },
+    {
+      "price": 59.7569,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:51 PM UTC-05:00",
+      "volume": 12541
+    },
+    {
+      "price": 59.775,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:52 PM UTC-05:00",
+      "volume": 7290
+    },
+    {
+      "price": 59.775,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:53 PM UTC-05:00",
+      "volume": 11068
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:54 PM UTC-05:00",
+      "volume": 16255
+    },
+    {
+      "price": 59.77,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:55 PM UTC-05:00",
+      "volume": 9176
+    },
+    {
+      "price": 59.77,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:56 PM UTC-05:00",
+      "volume": 12611
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:57 PM UTC-05:00",
+      "volume": 10188
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:58 PM UTC-05:00",
+      "volume": 12950
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:59 PM UTC-05:00",
+      "volume": 9600
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:00 PM UTC-05:00",
+      "volume": 7887
+    },
+    {
+      "price": 59.8063,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:01 PM UTC-05:00",
+      "volume": 36190
+    },
+    {
+      "price": 59.7937,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:02 PM UTC-05:00",
+      "volume": 11911
+    },
+    {
+      "price": 59.8,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:03 PM UTC-05:00",
+      "volume": 19124
+    },
+    {
+      "price": 59.82,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:04 PM UTC-05:00",
+      "volume": 38922
+    },
+    {
+      "price": 59.81,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:05 PM UTC-05:00",
+      "volume": 20532
+    },
+    {
+      "price": 59.765,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:06 PM UTC-05:00",
+      "volume": 21684
+    },
+    {
+      "price": 59.735,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:07 PM UTC-05:00",
+      "volume": 13518
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:08 PM UTC-05:00",
+      "volume": 11177
+    },
+    {
+      "price": 59.76,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:09 PM UTC-05:00",
+      "volume": 36100
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:10 PM UTC-05:00",
+      "volume": 13536
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:11 PM UTC-05:00",
+      "volume": 14019
+    },
+    {
+      "price": 59.765,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:12 PM UTC-05:00",
+      "volume": 20271
+    },
+    {
+      "price": 59.772,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:13 PM UTC-05:00",
+      "volume": 20074
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:14 PM UTC-05:00",
+      "volume": 14879
+    },
+    {
+      "price": 59.78,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:15 PM UTC-05:00",
+      "volume": 10937
+    },
+    {
+      "price": 59.76,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:16 PM UTC-05:00",
+      "volume": 20256
+    },
+    {
+      "price": 59.76,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:17 PM UTC-05:00",
+      "volume": 36266
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:18 PM UTC-05:00",
+      "volume": 37046
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:19 PM UTC-05:00",
+      "volume": 15888
+    },
+    {
+      "price": 59.79,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:20 PM UTC-05:00",
+      "volume": 20547
+    },
+    {
+      "price": 59.79,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:21 PM UTC-05:00",
+      "volume": 21360
+    },
+    {
+      "price": 59.81,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:22 PM UTC-05:00",
+      "volume": 21936
+    },
+    {
+      "price": 59.782,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:23 PM UTC-05:00",
+      "volume": 15171
+    },
+    {
+      "price": 59.805,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:24 PM UTC-05:00",
+      "volume": 13623
+    },
+    {
+      "price": 59.79,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:25 PM UTC-05:00",
+      "volume": 10696
+    },
+    {
+      "price": 59.81,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:26 PM UTC-05:00",
+      "volume": 30872
+    },
+    {
+      "price": 59.79,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:27 PM UTC-05:00",
+      "volume": 16433
+    },
+    {
+      "price": 59.74,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:28 PM UTC-05:00",
+      "volume": 24892
+    },
+    {
+      "price": 59.775,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:29 PM UTC-05:00",
+      "volume": 29661
+    },
+    {
+      "price": 59.7641,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:30 PM UTC-05:00",
+      "volume": 15246
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:31 PM UTC-05:00",
+      "volume": 22714
+    },
+    {
+      "price": 59.755,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:32 PM UTC-05:00",
+      "volume": 27141
+    },
+    {
+      "price": 59.75,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:33 PM UTC-05:00",
+      "volume": 27489
+    },
+    {
+      "price": 59.7355,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:34 PM UTC-05:00",
+      "volume": 16274
+    },
+    {
+      "price": 59.731,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:35 PM UTC-05:00",
+      "volume": 20780
+    },
+    {
+      "price": 59.725,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:36 PM UTC-05:00",
+      "volume": 15595
+    },
+    {
+      "price": 59.725,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:37 PM UTC-05:00",
+      "volume": 15577
+    },
+    {
+      "price": 59.76,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:38 PM UTC-05:00",
+      "volume": 30327
+    },
+    {
+      "price": 59.741,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:39 PM UTC-05:00",
+      "volume": 15923
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:40 PM UTC-05:00",
+      "volume": 24171
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:41 PM UTC-05:00",
+      "volume": 29197
+    },
+    {
+      "price": 59.715,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:42 PM UTC-05:00",
+      "volume": 25757
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:43 PM UTC-05:00",
+      "volume": 27680
+    },
+    {
+      "price": 59.685,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:44 PM UTC-05:00",
+      "volume": 28236
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:45 PM UTC-05:00",
+      "volume": 43300
+    },
+    {
+      "price": 59.705,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:46 PM UTC-05:00",
+      "volume": 34689
+    },
+    {
+      "price": 59.7115,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:47 PM UTC-05:00",
+      "volume": 30924
+    },
+    {
+      "price": 59.735,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:48 PM UTC-05:00",
+      "volume": 33111
+    },
+    {
+      "price": 59.73,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:49 PM UTC-05:00",
+      "volume": 21267
+    },
+    {
+      "price": 59.755,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:50 PM UTC-05:00",
+      "volume": 61056
+    },
+    {
+      "price": 59.71,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:51 PM UTC-05:00",
+      "volume": 74990
+    },
+    {
+      "price": 59.75,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:52 PM UTC-05:00",
+      "volume": 77707
+    },
+    {
+      "price": 59.775,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:53 PM UTC-05:00",
+      "volume": 81755
+    },
+    {
+      "price": 59.77,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:54 PM UTC-05:00",
+      "volume": 46348
+    }
+  ]
+}

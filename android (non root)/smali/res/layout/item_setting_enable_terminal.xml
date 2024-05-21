@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textSize="24.0sp" android:textColor="@color/selector_000000_ffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:background="@drawable/selector_ff4d00_00000000_r10" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="29.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:drawablePadding="6.0dip" android:drawableEnd="@drawable/selector_unfocused_toggle_button" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

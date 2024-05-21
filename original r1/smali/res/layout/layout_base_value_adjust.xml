@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0dip" android:textColor="@color/white" android:id="@id/tv_settings_title" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="5.0dip" android:text="xxxxx" android:fontFamily="@font/power_grotesk_regular" />
+    <FrameLayout android:id="@id/fl_full_height_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_value_counter" android:background="@drawable/bg_settings_value_counter" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+    </FrameLayout>
+</LinearLayout>

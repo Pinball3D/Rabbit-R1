@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="29.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="24.0sp" android:textColor="@color/dark_414141" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_networks" android:includeFontPadding="false" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+    <Space android:layout_width="6.0dip" android:layout_height="fill_parent" />
+    <tech.rabbit.r1launcher.widget.SettingLoading android:id="@id/sl_loading" android:layout_width="23.0dip" android:layout_height="23.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

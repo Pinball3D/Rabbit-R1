@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="?attr/motionEasingEmphasizedAccelerateInterpolator"
+        android:duration="?attr/motionDurationShort3"
+        android:startOffset="0"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType"
+        android:propertyName="opacity"/>
+    <objectAnimator
+        android:interpolator="?attr/motionEasingEmphasizedAccelerateInterpolator"
+        android:duration="?attr/motionDurationMedium1"
+        android:startOffset="0"
+        android:valueFrom="1"
+        android:valueTo="0.4"
+        android:valueType="floatType"
+        android:propertyName="scale"/>
+</set>

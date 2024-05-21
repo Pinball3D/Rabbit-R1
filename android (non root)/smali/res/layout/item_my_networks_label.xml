@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textSize="24.0sp" android:textColor="@color/dark_414141" android:gravity="center_vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="29.0dip" android:text="@string/title_my_devices" android:includeFontPadding="false" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

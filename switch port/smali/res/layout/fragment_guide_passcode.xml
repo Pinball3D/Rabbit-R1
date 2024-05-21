@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_init_step_create_a_passcode" android:includeFontPadding="false" android:lineSpacingMultiplier="1.2" android:translationY="-5.0dip" android:fontFamily="@font/power_grotesk_regular" android:layout_marginStart="18.0dip" android:layout_marginEnd="6.0dip" android:textFontWeight="400" />
+    <Space android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/AAAAAA" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_init_step_you_ll_only_need_to_enter_it_when_you_make_a_purchase" android:includeFontPadding="false" android:lineSpacingMultiplier="1.2" android:fontFamily="@font/power_grotesk_regular" android:layout_marginStart="18.0dip" android:layout_marginEnd="6.0dip" android:textFontWeight="400" />
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="30.0sp" android:textColor="@color/selector_000000_ffffff" android:gravity="center" android:layout_gravity="bottom" android:id="@id/tv_continue" android:background="@drawable/selector_ff4d00_00000000_r10" android:layout_width="fill_parent" android:layout_height="36.0dip" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="@string/text_continue" android:includeFontPadding="false" android:fontFamily="@font/power_grotesk_regular" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" android:textFontWeight="400" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:id="@+id/tv_tips"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/power_grotesk_regular"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="20dp"
+        android:textFontWeight="400"/>
+    <TextView
+        android:textSize="30sp"
+        android:textColor="@color/selector_000000_ffffff"
+        android:gravity="center"
+        android:id="@+id/tv_continue"
+        android:background="@drawable/selector_ff4d00_00000000_r10"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="@string/try_again"
+        android:fontFamily="@font/power_grotesk_regular"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textFontWeight="400"/>
+</LinearLayout>

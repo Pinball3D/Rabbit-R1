@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tech.rabbit.r1launcher.widget.UntouchableFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.rabbit.r1launcher.widget.SettingTitle android:id="@id/st" android:background="@drawable/shape_title_item_background_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:maxHeight="38.0dip" android:minHeight="36.0dip" app:st_focus_title="@string/bluetooth" />
+    <FrameLayout android:id="@id/fl_device_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_weight="1.0" android:defaultFocusHighlightEnabled="false">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_focus_bg" android:paddingRight="3.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="3.0dip" android:focusedByDefault="true" android:defaultFocusHighlightEnabled="false">
+            <TextView android:textSize="30.0dip" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_title_focus" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/connect" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+            <tech.rabbit.r1launcher.widget.SettingRing android:id="@id/v_ring" android:layout_width="23.0dip" android:layout_height="23.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_connect_error" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_weight="1.0" android:paddingHorizontal="3.0dip">
+        <TextView android:textSize="30.0dip" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/failed_connecting_to_bluetooth" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_remove" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="36.0dip" android:defaultFocusHighlightEnabled="false">
+        <TextView android:textSize="24.0dip" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_remove" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/remove" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+    </FrameLayout>
+</tech.rabbit.r1launcher.widget.UntouchableFrameLayout>

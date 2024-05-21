@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/divider_vertical_1" android:showDividers="beginning|end|middle">
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_factory" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Factory Test" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_aging" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Aging Test" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_shutdown" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Shutdown" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_back" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Back" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_device_id" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="DeviceId" />
+    </LinearLayout>
+    <View android:id="@id/view_adb_open" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <tech.rabbit.r1launcher.widget.CanBackLabelView android:id="@id/cblv_title" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusDown="@id/sv_container" android:layout_width="fill_parent" android:layout_height="36.0dip" app:canBackLabelViewFocusedLabel="@string/settings" app:canBackLabelViewUnfocusedLabel="@string/settings_page_disclaimer" />
+        <Space android:layout_width="fill_parent" android:layout_height="9.0dip" />
+        <ScrollView android:id="@id/sv_container" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="none" android:nextFocusUp="@id/cblv_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView android:id="@id/ssiv_picture" android:layout_width="fill_parent" android:layout_height="wrap_content" app:panEnabled="false" app:quickScaleEnabled="false" app:zoomEnabled="false" />
+        </ScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <tech.rabbit.r1launcher.widget.scrollbar.ScrollBarExtView android:id="@id/sbev_scroll_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

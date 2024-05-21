@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="2077777700"
+    android:versionName="20240418.0-5-g4fd1bbff-dirty"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="tech.rabbit.r1launcher.r1"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14">
+    <uses-sdk
+        android:minSdkVersion="32"
+        android:targetSdkVersion="33"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.BODY_SENSORS"/>
+    <uses-permission android:name="android.permission.BODY_SENSORS_BACKGROUND"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
+    <uses-permission android:name="android.permission.NETWORK_STACK"/>
+    <uses-permission android:name="android.permission.NETWORK_SETUP_WIZARD"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission
+        android:name="android.permission.NEARBY_WIFI_DEVICES"
+        android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="tech.rabbit.r1systemupdater.permission.WORK"/>
+    <queries>
+        <package android:name="tech.rabbit.r1systemupdater"/>
+        <intent>
+            <action android:name="tech.rabbit.r1systemupdater.service"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <permission
+        android:name="tech.rabbit.r1launcher.r1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="tech.rabbit.r1launcher.r1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false"/>
+    <application
+        android:theme="@style/Theme.R1Launcher"
+        android:label="r1"
+        android:icon="@mipmap/ic_launcher"
+        android:name="tech.rabbit.r1launcher.RLApp"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules">
+        <activity
+            android:theme="@style/Theme.R1Launcher.Main"
+            android:name="tech.rabbit.r1launcher.ota.OtaCheckActivity"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:configChanges="navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="tech.rabbit.r1launcher.action.UPDATE_CHECK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.R1Launcher.Main"
+            android:name="tech.rabbit.r1launcher.ota.OtaActivity"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:configChanges="navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="tech.rabbit.r1launcher.action.UPDATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.R1Launcher.Main"
+            android:label="@string/app_name_r1_launcher"
+            android:name="tech.rabbit.r1launcher.MainActivity"
+            android:exported="true"
+            android:screenOrientation="sensor"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name="tech.rabbit.r1launcher.HWTestActivity"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/zxing_CaptureTheme"
+            android:name="tech.rabbit.r1launcher.initstep.scanqrcode.ScanQrCodeActivity"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.initstep.InitStepActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:label="@string/app_name_r1_launcher"
+            android:name="tech.rabbit.r1launcher.settings.bluetooth.page.BluetoothListActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_r1_launcher"
+            android:name="tech.rabbit.r1launcher.settings.volume.VolumeListActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.settings.power_off.PowerOffActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.settings.security.SecurityActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.settings.about.AboutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.settings.Settings2Activity"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.settings.bluetooth.page.BluetoothAdvanceActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.passcode.VerifyPasscodeActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.factorymode.FactoryModeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.settings.network2.SettingsNetwork2Activity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.settings.compliance.ComplianceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="tech.rabbit.r1launcher.settings.disclaimer.DisclaimerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyByqchoiOgYEbI9LvJVa5N-p3SAup6TxmA"/>
+        <meta-data
+            android:name="io.sentry.dsn"
+            android:value="https://15627d26b924ba7a8933fd2ca90500a3@o4506899645792256.ingest.us.sentry.io/4506899649003520"/>
+        <meta-data
+            android:name="io.sentry.traces.user-interaction.enable"
+            android:value="true"/>
+        <meta-data
+            android:name="io.sentry.attach-screenshot"
+            android:value="true"/>
+        <meta-data
+            android:name="io.sentry.attach-view-hierarchy"
+            android:value="true"/>
+        <meta-data
+            android:name="io.sentry.traces.sample-rate"
+            android:value="1"/>
+        <meta-data
+            android:name="io.sentry.traces.profiling.sample-rate"
+            android:value="1"/>
+        <meta-data
+            android:name="flutterProjectType"
+            android:value="module"/>
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="tech.rabbit.r1launcher.r1.androidx-startup">
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable.BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="io.sentry.android.core.SentryPerformanceProvider"
+            android:exported="false"
+            android:authorities="tech.rabbit.r1launcher.r1.SentryPerformanceProvider"
+            android:initOrder="200"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/zxing_CaptureTheme"
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+    </application>
+</manifest>

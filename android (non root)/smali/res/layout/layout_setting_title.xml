@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="38.0dip" android:minHeight="36.0dip" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_focus_title" android:background="@drawable/bg_setting_choose" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_setting_back" />
+        <TextView android:textSize="30.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/tv_focus_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="-2.0dip" android:text="settings" android:maxLines="1" android:singleLine="true" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+    </LinearLayout>
+    <TextView android:textSize="30.0dip" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/tv_normal_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="settings" android:maxLines="1" android:singleLine="true" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+</LinearLayout>

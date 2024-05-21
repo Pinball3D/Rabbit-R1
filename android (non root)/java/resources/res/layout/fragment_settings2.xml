@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="3dp"
+    android:layout_marginEnd="3dp">
+    <com.rubensousa.dpadrecyclerview.DpadRecyclerView
+        android:id="@+id/rv_list"
+        android:nextFocusUp="@+id/cblv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dp"/>
+    <tech.rabbit.r1launcher.widget.CanBackLabelView
+        android:id="@+id/cblv_title"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:canBackLabelViewFocusedLabel="@string/back_home"
+        app:canBackLabelViewUnfocusedLabel="@string/settings"
+        app:visibleFadeBackground="true"/>
+</FrameLayout>

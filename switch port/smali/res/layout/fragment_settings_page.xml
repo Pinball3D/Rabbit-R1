@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tech.rabbit.r1launcher.widget.UntouchableFrameLayout android:orientation="vertical" android:id="@id/fl_root_layout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.rabbit.r1launcher.widget.SettingTitle android:id="@id/title_settings" android:background="@drawable/shape_title_item_background_selector" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" app:st_focus_title="@string/back_home" app:st_normal_title="@string/settings_page_settings" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_setting_items" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:overScrollMode="never" />
+    <tech.rabbit.r1launcher.settings.brightness.BrightnessAdjustCard android:id="@id/card_brightness" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</tech.rabbit.r1launcher.widget.UntouchableFrameLayout>

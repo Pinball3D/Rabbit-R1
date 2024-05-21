@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.rabbit.r1launcher.widget.SettingTitle android:id="@id/setting_title" android:background="@drawable/shape_title_item_background_selector" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="3.0dip" android:defaultFocusHighlightEnabled="false" app:st_focus_title="@string/settings" app:st_normal_title="@string/settings_page_system_about" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fl_device_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginHorizontal="3.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="@color/dark_414141" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_device_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/settings_page_system_info" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:defaultFocusHighlightEnabled="false" android:textFontWeight="400" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_device_info_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="3.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_device_info_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="rabbit r1" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:defaultFocusHighlightEnabled="false" android:textFontWeight="400" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_launcher_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginHorizontal="3.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="@color/dark_414141" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_launcher_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/settings_page_launcher_version" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:defaultFocusHighlightEnabled="false" android:textFontWeight="400" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_luancher_info_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="3.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_launcher_info_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:defaultFocusHighlightEnabled="false" android:textFontWeight="400" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_imei_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginHorizontal="3.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="@color/dark_414141" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_imei_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/settings_page_imei" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:defaultFocusHighlightEnabled="false" android:textFontWeight="400" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_luancher_imei_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="3.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_launcher_imei_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:defaultFocusHighlightEnabled="false" android:textFontWeight="400" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

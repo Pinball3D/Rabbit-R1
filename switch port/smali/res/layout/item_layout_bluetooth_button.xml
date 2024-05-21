@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:tag="focusable" android:paddingTop="19.5dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="52.5dip" android:layout_marginHorizontal="3.0dip" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="30.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bluetooth" android:layout_weight="1.0" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+        <tech.rabbit.r1launcher.widget.SettingSwitch android:id="@id/ss" android:focusable="false" android:layout_width="38.5dip" android:layout_height="23.0dip" />
+    </LinearLayout>
+</FrameLayout>

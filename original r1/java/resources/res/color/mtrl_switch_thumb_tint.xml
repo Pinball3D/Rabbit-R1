@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:state_checked="false"
+        android:color="?attr/colorOnSurface"
+        android:alpha="@dimen/m3_comp_switch_disabled_unselected_handle_opacity"/>
+    <item
+        android:state_enabled="false"
+        android:state_checked="true"
+        android:color="?attr/colorSurface"
+        android:alpha="@dimen/m3_comp_switch_disabled_selected_handle_opacity"/>
+    <item
+        android:state_checked="true"
+        android:state_pressed="true"
+        android:color="?attr/colorPrimaryContainer"/>
+    <item
+        android:state_checked="true"
+        android:color="?attr/colorOnPrimary"/>
+    <item
+        android:state_pressed="true"
+        android:color="?attr/colorOnSurfaceVariant"/>
+    <item android:color="?attr/colorOutline"/>
+</selector>

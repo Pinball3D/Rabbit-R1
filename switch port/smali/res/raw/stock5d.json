@@ -1,0 +1,446 @@
+{
+  "search_metadata": {
+    "id": "65951f05fe41d099cb25fabf",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/aecbbd3319ac9f07/65951f05fe41d099cb25fabf.json",
+    "created_at": "2024-01-03 08:47:01 UTC",
+    "processed_at": "2024-01-03 08:47:01 UTC",
+    "google_finance_url": "https://www.google.com/finance/quote/KO:NYSE?hl=en&window=5D",
+    "raw_html_file": "https://serpapi.com/searches/aecbbd3319ac9f07/65951f05fe41d099cb25fabf.html",
+    "prettify_html_file": "https://serpapi.com/searches/aecbbd3319ac9f07/65951f05fe41d099cb25fabf.prettify",
+    "total_time_taken": 1.0
+  },
+  "search_parameters": {
+    "engine": "google_finance",
+    "q": "KO:NYSE",
+    "hl": "en",
+    "window": "5D"
+  },
+  "summary": {
+    "title": "Coca-Cola Co",
+    "stock": "KO",
+    "exchange": "NYSE",
+    "price": "USD 59.82",
+    "extracted_price": 59.82,
+    "currency": "USD",
+    "market": {
+      "price": "USD 59.79",
+      "extracted_price": 59.79,
+      "currency": "USD",
+      "price_movement": {
+        "percentage": 0.05014841,
+        "value": 0.02999878,
+        "movement": "Down"
+      }
+    },
+    "extensions": [
+      "America/New_York",
+      "USD",
+      "NYSE"
+    ]
+  },
+  "graph": [
+    {
+      "price": 58.3091,
+      "currency": "USD",
+      "date": "Dec 26 2023, 10:00 AM UTC-05:00",
+      "volume": 573672
+    },
+    {
+      "price": 58.34,
+      "currency": "USD",
+      "date": "Dec 26 2023, 10:30 AM UTC-05:00",
+      "volume": 217024
+    },
+    {
+      "price": 58.33,
+      "currency": "USD",
+      "date": "Dec 26 2023, 11:00 AM UTC-05:00",
+      "volume": 227759
+    },
+    {
+      "price": 58.34,
+      "currency": "USD",
+      "date": "Dec 26 2023, 11:30 AM UTC-05:00",
+      "volume": 258691
+    },
+    {
+      "price": 58.39,
+      "currency": "USD",
+      "date": "Dec 26 2023, 12:00 PM UTC-05:00",
+      "volume": 199962
+    },
+    {
+      "price": 58.425,
+      "currency": "USD",
+      "date": "Dec 26 2023, 12:30 PM UTC-05:00",
+      "volume": 210300
+    },
+    {
+      "price": 58.455,
+      "currency": "USD",
+      "date": "Dec 26 2023, 01:00 PM UTC-05:00",
+      "volume": 271894
+    },
+    {
+      "price": 58.5532,
+      "currency": "USD",
+      "date": "Dec 26 2023, 01:30 PM UTC-05:00",
+      "volume": 215906
+    },
+    {
+      "price": 58.535,
+      "currency": "USD",
+      "date": "Dec 26 2023, 02:00 PM UTC-05:00",
+      "volume": 227233
+    },
+    {
+      "price": 58.56,
+      "currency": "USD",
+      "date": "Dec 26 2023, 02:30 PM UTC-05:00",
+      "volume": 238039
+    },
+    {
+      "price": 58.615,
+      "currency": "USD",
+      "date": "Dec 26 2023, 03:00 PM UTC-05:00",
+      "volume": 310316
+    },
+    {
+      "price": 58.66,
+      "currency": "USD",
+      "date": "Dec 26 2023, 03:30 PM UTC-05:00",
+      "volume": 315349
+    },
+    {
+      "price": 58.56,
+      "currency": "USD",
+      "date": "Dec 26 2023, 04:00 PM UTC-05:00",
+      "volume": 593048
+    },
+    {
+      "price": 58.63,
+      "currency": "USD",
+      "date": "Dec 27 2023, 09:30 AM UTC-05:00",
+      "volume": 400
+    },
+    {
+      "price": 58.515,
+      "currency": "USD",
+      "date": "Dec 27 2023, 10:00 AM UTC-05:00",
+      "volume": 762307
+    },
+    {
+      "price": 58.535,
+      "currency": "USD",
+      "date": "Dec 27 2023, 10:30 AM UTC-05:00",
+      "volume": 390631
+    },
+    {
+      "price": 58.595,
+      "currency": "USD",
+      "date": "Dec 27 2023, 11:00 AM UTC-05:00",
+      "volume": 443880
+    },
+    {
+      "price": 58.625,
+      "currency": "USD",
+      "date": "Dec 27 2023, 11:30 AM UTC-05:00",
+      "volume": 312281
+    },
+    {
+      "price": 58.65,
+      "currency": "USD",
+      "date": "Dec 27 2023, 12:00 PM UTC-05:00",
+      "volume": 252073
+    },
+    {
+      "price": 58.655,
+      "currency": "USD",
+      "date": "Dec 27 2023, 12:30 PM UTC-05:00",
+      "volume": 228319
+    },
+    {
+      "price": 58.67,
+      "currency": "USD",
+      "date": "Dec 27 2023, 01:00 PM UTC-05:00",
+      "volume": 229146
+    },
+    {
+      "price": 58.705,
+      "currency": "USD",
+      "date": "Dec 27 2023, 01:30 PM UTC-05:00",
+      "volume": 404339
+    },
+    {
+      "price": 58.715,
+      "currency": "USD",
+      "date": "Dec 27 2023, 02:00 PM UTC-05:00",
+      "volume": 292951
+    },
+    {
+      "price": 58.66,
+      "currency": "USD",
+      "date": "Dec 27 2023, 02:30 PM UTC-05:00",
+      "volume": 382727
+    },
+    {
+      "price": 58.64,
+      "currency": "USD",
+      "date": "Dec 27 2023, 03:00 PM UTC-05:00",
+      "volume": 267304
+    },
+    {
+      "price": 58.665,
+      "currency": "USD",
+      "date": "Dec 27 2023, 03:30 PM UTC-05:00",
+      "volume": 289398
+    },
+    {
+      "price": 58.72,
+      "currency": "USD",
+      "date": "Dec 27 2023, 04:00 PM UTC-05:00",
+      "volume": 980960
+    },
+    {
+      "price": 58.7,
+      "currency": "USD",
+      "date": "Dec 28 2023, 09:30 AM UTC-05:00",
+      "volume": 161574
+    },
+    {
+      "price": 58.755,
+      "currency": "USD",
+      "date": "Dec 28 2023, 10:00 AM UTC-05:00",
+      "volume": 437602
+    },
+    {
+      "price": 58.85,
+      "currency": "USD",
+      "date": "Dec 28 2023, 10:30 AM UTC-05:00",
+      "volume": 347665
+    },
+    {
+      "price": 58.795,
+      "currency": "USD",
+      "date": "Dec 28 2023, 11:00 AM UTC-05:00",
+      "volume": 325274
+    },
+    {
+      "price": 58.725,
+      "currency": "USD",
+      "date": "Dec 28 2023, 11:30 AM UTC-05:00",
+      "volume": 346763
+    },
+    {
+      "price": 58.67,
+      "currency": "USD",
+      "date": "Dec 28 2023, 12:00 PM UTC-05:00",
+      "volume": 297818
+    },
+    {
+      "price": 58.6325,
+      "currency": "USD",
+      "date": "Dec 28 2023, 12:30 PM UTC-05:00",
+      "volume": 349324
+    },
+    {
+      "price": 58.6125,
+      "currency": "USD",
+      "date": "Dec 28 2023, 01:00 PM UTC-05:00",
+      "volume": 268823
+    },
+    {
+      "price": 58.6,
+      "currency": "USD",
+      "date": "Dec 28 2023, 01:30 PM UTC-05:00",
+      "volume": 336544
+    },
+    {
+      "price": 58.725,
+      "currency": "USD",
+      "date": "Dec 28 2023, 02:00 PM UTC-05:00",
+      "volume": 254721
+    },
+    {
+      "price": 58.795,
+      "currency": "USD",
+      "date": "Dec 28 2023, 02:30 PM UTC-05:00",
+      "volume": 262177
+    },
+    {
+      "price": 58.7634,
+      "currency": "USD",
+      "date": "Dec 28 2023, 03:00 PM UTC-05:00",
+      "volume": 282954
+    },
+    {
+      "price": 58.705,
+      "currency": "USD",
+      "date": "Dec 28 2023, 03:30 PM UTC-05:00",
+      "volume": 478522
+    },
+    {
+      "price": 58.765,
+      "currency": "USD",
+      "date": "Dec 28 2023, 04:00 PM UTC-05:00",
+      "volume": 1757273
+    },
+    {
+      "price": 58.78,
+      "currency": "USD",
+      "date": "Dec 29 2023, 09:30 AM UTC-05:00",
+      "volume": 200
+    },
+    {
+      "price": 58.645,
+      "currency": "USD",
+      "date": "Dec 29 2023, 10:00 AM UTC-05:00",
+      "volume": 502896
+    },
+    {
+      "price": 58.785,
+      "currency": "USD",
+      "date": "Dec 29 2023, 10:30 AM UTC-05:00",
+      "volume": 366475
+    },
+    {
+      "price": 58.87,
+      "currency": "USD",
+      "date": "Dec 29 2023, 11:00 AM UTC-05:00",
+      "volume": 509509
+    },
+    {
+      "price": 58.855,
+      "currency": "USD",
+      "date": "Dec 29 2023, 11:30 AM UTC-05:00",
+      "volume": 379407
+    },
+    {
+      "price": 58.7452,
+      "currency": "USD",
+      "date": "Dec 29 2023, 12:00 PM UTC-05:00",
+      "volume": 310880
+    },
+    {
+      "price": 58.71,
+      "currency": "USD",
+      "date": "Dec 29 2023, 12:30 PM UTC-05:00",
+      "volume": 214196
+    },
+    {
+      "price": 58.752,
+      "currency": "USD",
+      "date": "Dec 29 2023, 01:00 PM UTC-05:00",
+      "volume": 194475
+    },
+    {
+      "price": 58.715,
+      "currency": "USD",
+      "date": "Dec 29 2023, 01:30 PM UTC-05:00",
+      "volume": 228697
+    },
+    {
+      "price": 58.76,
+      "currency": "USD",
+      "date": "Dec 29 2023, 02:00 PM UTC-05:00",
+      "volume": 158458
+    },
+    {
+      "price": 58.805,
+      "currency": "USD",
+      "date": "Dec 29 2023, 02:30 PM UTC-05:00",
+      "volume": 186697
+    },
+    {
+      "price": 58.8,
+      "currency": "USD",
+      "date": "Dec 29 2023, 03:00 PM UTC-05:00",
+      "volume": 221482
+    },
+    {
+      "price": 58.875,
+      "currency": "USD",
+      "date": "Dec 29 2023, 03:30 PM UTC-05:00",
+      "volume": 429870
+    },
+    {
+      "price": 58.93,
+      "currency": "USD",
+      "date": "Dec 29 2023, 04:00 PM UTC-05:00",
+      "volume": 1899291
+    },
+    {
+      "price": 59.215,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:00 AM UTC-05:00",
+      "volume": 1179876
+    },
+    {
+      "price": 59.495,
+      "currency": "USD",
+      "date": "Jan 02 2024, 10:30 AM UTC-05:00",
+      "volume": 901606
+    },
+    {
+      "price": 59.595,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:00 AM UTC-05:00",
+      "volume": 952595
+    },
+    {
+      "price": 59.41,
+      "currency": "USD",
+      "date": "Jan 02 2024, 11:30 AM UTC-05:00",
+      "volume": 895597
+    },
+    {
+      "price": 59.57,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:00 PM UTC-05:00",
+      "volume": 605818
+    },
+    {
+      "price": 59.63,
+      "currency": "USD",
+      "date": "Jan 02 2024, 12:30 PM UTC-05:00",
+      "volume": 444309
+    },
+    {
+      "price": 59.7,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:00 PM UTC-05:00",
+      "volume": 273841
+    },
+    {
+      "price": 59.675,
+      "currency": "USD",
+      "date": "Jan 02 2024, 01:30 PM UTC-05:00",
+      "volume": 354259
+    },
+    {
+      "price": 59.725,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:00 PM UTC-05:00",
+      "volume": 376375
+    },
+    {
+      "price": 59.745,
+      "currency": "USD",
+      "date": "Jan 02 2024, 02:30 PM UTC-05:00",
+      "volume": 451530
+    },
+    {
+      "price": 59.785,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:00 PM UTC-05:00",
+      "volume": 393231
+    },
+    {
+      "price": 59.7641,
+      "currency": "USD",
+      "date": "Jan 02 2024, 03:30 PM UTC-05:00",
+      "volume": 632767
+    }
+  ]
+}

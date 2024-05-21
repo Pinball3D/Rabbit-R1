@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/ll_item_container"
+    android:background="@drawable/shape_ff4d00_r10"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp">
+    <ImageView
+        android:id="@+id/iv_item_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+    <TextView
+        android:textSize="24sp"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_item_name"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:fontFamily="@font/power_grotesk_regular"
+        android:textFontWeight="400"/>
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="match_parent"/>
+</LinearLayout>

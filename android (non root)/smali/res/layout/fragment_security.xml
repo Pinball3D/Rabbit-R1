@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.rabbit.r1launcher.widget.SettingTitle android:id="@id/setting_title" android:background="@drawable/shape_title_item_background_selector" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="3.0dip" android:defaultFocusHighlightEnabled="false" app:st_focus_title="@string/settings" app:st_normal_title="@string/settings_page_security" />
+    <FrameLayout android:id="@id/fl_change_passcode" android:layout_width="fill_parent" android:layout_height="29.0dip" android:layout_marginTop="9.0dip" android:layout_marginHorizontal="3.0dip">
+        <TextView android:textSize="24.0dip" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_pass_code" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/text_change_pass_code" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/power_grotesk_regular" android:defaultFocusHighlightEnabled="false" android:textFontWeight="400" />
+    </FrameLayout>
+</LinearLayout>

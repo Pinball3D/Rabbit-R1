@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_content_container" android:paddingTop="78.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <tech.rabbit.r1launcher.initstep.widget.StepProgressIndicatorView android:id="@id/spiv_step_progress_indicator" android:layout_width="fill_parent" android:layout_height="85.0dip" android:alpha="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_back_container" android:background="@drawable/bg_ff4d00_r10" android:layout_width="wrap_content" android:layout_height="30.0dip" android:alpha="0.0" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" android:layout_marginStart="3.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_setting_back" />
+        <Space android:layout_width="6.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="24.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_back_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="@font/power_grotesk_regular" android:textFontWeight="400" />
+    </LinearLayout>
+</FrameLayout>
