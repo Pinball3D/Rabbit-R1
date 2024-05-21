@@ -2,9 +2,8 @@ package androidx.core.content.res;
 
 import tech.rabbit.r1launcher.BuildConfig;
 
-/* JADX INFO: Access modifiers changed from: package-private */
 /* loaded from: classes.dex */
-public final class ViewingConditions {
+final class ViewingConditions {
     static final ViewingConditions DEFAULT = make(CamUtils.WHITE_POINT_D65, (float) ((CamUtils.yFromLStar(50.0f) * 63.66197723675813d) / 100.0d), 50.0f, 2.0f, false);
     private final float mAw;
     private final float mC;

@@ -348,7 +348,7 @@ public class SlidingPaneLayout extends ViewGroup implements Openable {
     }
 
     /* JADX WARN: Type inference failed for: r8v0 */
-    /* JADX WARN: Type inference failed for: r8v1, types: [int, boolean] */
+    /* JADX WARN: Type inference failed for: r8v1, types: [boolean, int] */
     /* JADX WARN: Type inference failed for: r8v12 */
     @Override // android.view.View
     protected void onMeasure(int i, int i2) {

@@ -13,7 +13,18 @@ public final class KeyboardArrowDownKt {
         jadx.core.utils.exceptions.JadxRuntimeException: Failed to process method for inline: androidx.compose.ui.graphics.vector.ImageVector.Builder.addPath-oIyEayM$default(androidx.compose.ui.graphics.vector.ImageVector$Builder, java.util.List, int, java.lang.String, androidx.compose.ui.graphics.Brush, float, androidx.compose.ui.graphics.Brush, float, float, int, int, float, float, float, float, int, java.lang.Object):androidx.compose.ui.graphics.vector.ImageVector$Builder
         	at jadx.core.dex.visitors.InlineMethods.processInvokeInsn(InlineMethods.java:74)
         	at jadx.core.dex.visitors.InlineMethods.visit(InlineMethods.java:49)
-        Caused by: java.lang.NullPointerException
+        Caused by: java.util.ConcurrentModificationException
+        	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1095)
+        	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1049)
+        	at jadx.core.dex.instructions.args.SSAVar.updateUsedInPhiList(SSAVar.java:161)
+        	at jadx.core.dex.nodes.InsnNode.rebindArgs(InsnNode.java:490)
+        	at jadx.core.dex.instructions.mods.TernaryInsn.rebindArgs(TernaryInsn.java:92)
+        	at jadx.core.dex.nodes.InsnNode.rebindArgs(InsnNode.java:492)
+        	at jadx.core.utils.BlockUtils.replaceInsn(BlockUtils.java:1109)
+        	at jadx.core.utils.BlockUtils.replaceInsn(BlockUtils.java:1118)
+        	at jadx.core.dex.visitors.InlineMethods.inlineMethod(InlineMethods.java:113)
+        	at jadx.core.dex.visitors.InlineMethods.processInvokeInsn(InlineMethods.java:72)
+        	... 1 more
         */
     public static final androidx.compose.ui.graphics.vector.ImageVector getKeyboardArrowDown(androidx.compose.material.icons.Icons.Sharp r30) {
         /*

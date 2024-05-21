@@ -1,7 +1,16 @@
 package androidx.compose.material.icons.outlined;
 
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
 import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
 import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
 
 /* compiled from: Settings.kt */
 @Metadata(d1 = {"\u0000\u0010\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\"\u0010\u0010\u0000\u001a\u0004\u0018\u00010\u0001X\u0082\u000e¢\u0006\u0002\n\u0000\"\u0015\u0010\u0002\u001a\u00020\u0001*\u00020\u00038F¢\u0006\u0006\u001a\u0004\b\u0004\u0010\u0005¨\u0006\u0006"}, d2 = {"_settings", "Landroidx/compose/ui/graphics/vector/ImageVector;", "Settings", "Landroidx/compose/material/icons/Icons$Outlined;", "getSettings", "(Landroidx/compose/material/icons/Icons$Outlined;)Landroidx/compose/ui/graphics/vector/ImageVector;", "material-icons-core_release"}, k = 2, mv = {1, 8, 0}, xi = 48)
@@ -9,26 +18,132 @@ import kotlin.Metadata;
 public final class SettingsKt {
     private static ImageVector _settings;
 
-    /*  JADX ERROR: JadxRuntimeException in pass: InlineMethods
-        jadx.core.utils.exceptions.JadxRuntimeException: Failed to process method for inline: androidx.compose.ui.graphics.vector.ImageVector.Builder.addPath-oIyEayM$default(androidx.compose.ui.graphics.vector.ImageVector$Builder, java.util.List, int, java.lang.String, androidx.compose.ui.graphics.Brush, float, androidx.compose.ui.graphics.Brush, float, float, int, int, float, float, float, float, int, java.lang.Object):androidx.compose.ui.graphics.vector.ImageVector$Builder
-        	at jadx.core.dex.visitors.InlineMethods.processInvokeInsn(InlineMethods.java:74)
-        	at jadx.core.dex.visitors.InlineMethods.visit(InlineMethods.java:49)
-        Caused by: java.lang.NullPointerException: Cannot invoke "jadx.core.dex.instructions.args.RegisterArg.getParentInsn()" because "reg" is null
-        	at jadx.core.dex.instructions.args.SSAVar.updateUsedInPhiList(SSAVar.java:162)
-        	at jadx.core.dex.nodes.InsnNode.rebindArgs(InsnNode.java:490)
-        	at jadx.core.dex.instructions.mods.TernaryInsn.rebindArgs(TernaryInsn.java:92)
-        	at jadx.core.dex.nodes.InsnNode.rebindArgs(InsnNode.java:492)
-        	at jadx.core.utils.BlockUtils.replaceInsn(BlockUtils.java:1109)
-        	at jadx.core.utils.BlockUtils.replaceInsn(BlockUtils.java:1118)
-        	at jadx.core.dex.visitors.InlineMethods.inlineMethod(InlineMethods.java:113)
-        	at jadx.core.dex.visitors.InlineMethods.processInvokeInsn(InlineMethods.java:72)
-        	... 1 more
-        */
-    public static final androidx.compose.ui.graphics.vector.ImageVector getSettings(androidx.compose.material.icons.Icons.Outlined r30) {
-        /*
-            Method dump skipped, instructions count: 1323
-            To view this dump add '--comments-level debug' option
-        */
-        throw new UnsupportedOperationException("Method not decompiled: androidx.compose.material.icons.outlined.SettingsKt.getSettings(androidx.compose.material.icons.Icons$Outlined):androidx.compose.ui.graphics.vector.ImageVector");
+    public static final ImageVector getSettings(Icons.Outlined outlined) {
+        ImageVector.Builder m3264addPathoIyEayM;
+        Intrinsics.checkNotNullParameter(outlined, "<this>");
+        ImageVector imageVector = _settings;
+        if (imageVector != null) {
+            Intrinsics.checkNotNull(imageVector);
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("Outlined.Settings", Dp.m4883constructorimpl(24.0f), Dp.m4883constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 224, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.INSTANCE.m2665getBlack0d7_KjU(), null);
+        int m2985getButtKaPHkGw = StrokeCap.INSTANCE.m2985getButtKaPHkGw();
+        int m2995getBevelLxFBmk8 = StrokeJoin.INSTANCE.m2995getBevelLxFBmk8();
+        PathBuilder pathBuilder = new PathBuilder();
+        pathBuilder.moveTo(19.43f, 12.98f);
+        pathBuilder.curveToRelative(0.04f, -0.32f, 0.07f, -0.64f, 0.07f, -0.98f);
+        pathBuilder.curveToRelative(0.0f, -0.34f, -0.03f, -0.66f, -0.07f, -0.98f);
+        pathBuilder.lineToRelative(2.11f, -1.65f);
+        pathBuilder.curveToRelative(0.19f, -0.15f, 0.24f, -0.42f, 0.12f, -0.64f);
+        pathBuilder.lineToRelative(-2.0f, -3.46f);
+        pathBuilder.curveToRelative(-0.09f, -0.16f, -0.26f, -0.25f, -0.44f, -0.25f);
+        pathBuilder.curveToRelative(-0.06f, 0.0f, -0.12f, 0.01f, -0.17f, 0.03f);
+        pathBuilder.lineToRelative(-2.49f, 1.0f);
+        pathBuilder.curveToRelative(-0.52f, -0.4f, -1.08f, -0.73f, -1.69f, -0.98f);
+        pathBuilder.lineToRelative(-0.38f, -2.65f);
+        pathBuilder.curveTo(14.46f, 2.18f, 14.25f, 2.0f, 14.0f, 2.0f);
+        pathBuilder.horizontalLineToRelative(-4.0f);
+        pathBuilder.curveToRelative(-0.25f, 0.0f, -0.46f, 0.18f, -0.49f, 0.42f);
+        pathBuilder.lineToRelative(-0.38f, 2.65f);
+        pathBuilder.curveToRelative(-0.61f, 0.25f, -1.17f, 0.59f, -1.69f, 0.98f);
+        pathBuilder.lineToRelative(-2.49f, -1.0f);
+        pathBuilder.curveToRelative(-0.06f, -0.02f, -0.12f, -0.03f, -0.18f, -0.03f);
+        pathBuilder.curveToRelative(-0.17f, 0.0f, -0.34f, 0.09f, -0.43f, 0.25f);
+        pathBuilder.lineToRelative(-2.0f, 3.46f);
+        pathBuilder.curveToRelative(-0.13f, 0.22f, -0.07f, 0.49f, 0.12f, 0.64f);
+        pathBuilder.lineToRelative(2.11f, 1.65f);
+        pathBuilder.curveToRelative(-0.04f, 0.32f, -0.07f, 0.65f, -0.07f, 0.98f);
+        pathBuilder.curveToRelative(0.0f, 0.33f, 0.03f, 0.66f, 0.07f, 0.98f);
+        pathBuilder.lineToRelative(-2.11f, 1.65f);
+        pathBuilder.curveToRelative(-0.19f, 0.15f, -0.24f, 0.42f, -0.12f, 0.64f);
+        pathBuilder.lineToRelative(2.0f, 3.46f);
+        pathBuilder.curveToRelative(0.09f, 0.16f, 0.26f, 0.25f, 0.44f, 0.25f);
+        pathBuilder.curveToRelative(0.06f, 0.0f, 0.12f, -0.01f, 0.17f, -0.03f);
+        pathBuilder.lineToRelative(2.49f, -1.0f);
+        pathBuilder.curveToRelative(0.52f, 0.4f, 1.08f, 0.73f, 1.69f, 0.98f);
+        pathBuilder.lineToRelative(0.38f, 2.65f);
+        pathBuilder.curveToRelative(0.03f, 0.24f, 0.24f, 0.42f, 0.49f, 0.42f);
+        pathBuilder.horizontalLineToRelative(4.0f);
+        pathBuilder.curveToRelative(0.25f, 0.0f, 0.46f, -0.18f, 0.49f, -0.42f);
+        pathBuilder.lineToRelative(0.38f, -2.65f);
+        pathBuilder.curveToRelative(0.61f, -0.25f, 1.17f, -0.59f, 1.69f, -0.98f);
+        pathBuilder.lineToRelative(2.49f, 1.0f);
+        pathBuilder.curveToRelative(0.06f, 0.02f, 0.12f, 0.03f, 0.18f, 0.03f);
+        pathBuilder.curveToRelative(0.17f, 0.0f, 0.34f, -0.09f, 0.43f, -0.25f);
+        pathBuilder.lineToRelative(2.0f, -3.46f);
+        pathBuilder.curveToRelative(0.12f, -0.22f, 0.07f, -0.49f, -0.12f, -0.64f);
+        pathBuilder.lineToRelative(-2.11f, -1.65f);
+        pathBuilder.close();
+        pathBuilder.moveTo(17.45f, 11.27f);
+        pathBuilder.curveToRelative(0.04f, 0.31f, 0.05f, 0.52f, 0.05f, 0.73f);
+        pathBuilder.curveToRelative(0.0f, 0.21f, -0.02f, 0.43f, -0.05f, 0.73f);
+        pathBuilder.lineToRelative(-0.14f, 1.13f);
+        pathBuilder.lineToRelative(0.89f, 0.7f);
+        pathBuilder.lineToRelative(1.08f, 0.84f);
+        pathBuilder.lineToRelative(-0.7f, 1.21f);
+        pathBuilder.lineToRelative(-1.27f, -0.51f);
+        pathBuilder.lineToRelative(-1.04f, -0.42f);
+        pathBuilder.lineToRelative(-0.9f, 0.68f);
+        pathBuilder.curveToRelative(-0.43f, 0.32f, -0.84f, 0.56f, -1.25f, 0.73f);
+        pathBuilder.lineToRelative(-1.06f, 0.43f);
+        pathBuilder.lineToRelative(-0.16f, 1.13f);
+        pathBuilder.lineToRelative(-0.2f, 1.35f);
+        pathBuilder.horizontalLineToRelative(-1.4f);
+        pathBuilder.lineToRelative(-0.19f, -1.35f);
+        pathBuilder.lineToRelative(-0.16f, -1.13f);
+        pathBuilder.lineToRelative(-1.06f, -0.43f);
+        pathBuilder.curveToRelative(-0.43f, -0.18f, -0.83f, -0.41f, -1.23f, -0.71f);
+        pathBuilder.lineToRelative(-0.91f, -0.7f);
+        pathBuilder.lineToRelative(-1.06f, 0.43f);
+        pathBuilder.lineToRelative(-1.27f, 0.51f);
+        pathBuilder.lineToRelative(-0.7f, -1.21f);
+        pathBuilder.lineToRelative(1.08f, -0.84f);
+        pathBuilder.lineToRelative(0.89f, -0.7f);
+        pathBuilder.lineToRelative(-0.14f, -1.13f);
+        pathBuilder.curveToRelative(-0.03f, -0.31f, -0.05f, -0.54f, -0.05f, -0.74f);
+        pathBuilder.reflectiveCurveToRelative(0.02f, -0.43f, 0.05f, -0.73f);
+        pathBuilder.lineToRelative(0.14f, -1.13f);
+        pathBuilder.lineToRelative(-0.89f, -0.7f);
+        pathBuilder.lineToRelative(-1.08f, -0.84f);
+        pathBuilder.lineToRelative(0.7f, -1.21f);
+        pathBuilder.lineToRelative(1.27f, 0.51f);
+        pathBuilder.lineToRelative(1.04f, 0.42f);
+        pathBuilder.lineToRelative(0.9f, -0.68f);
+        pathBuilder.curveToRelative(0.43f, -0.32f, 0.84f, -0.56f, 1.25f, -0.73f);
+        pathBuilder.lineToRelative(1.06f, -0.43f);
+        pathBuilder.lineToRelative(0.16f, -1.13f);
+        pathBuilder.lineToRelative(0.2f, -1.35f);
+        pathBuilder.horizontalLineToRelative(1.39f);
+        pathBuilder.lineToRelative(0.19f, 1.35f);
+        pathBuilder.lineToRelative(0.16f, 1.13f);
+        pathBuilder.lineToRelative(1.06f, 0.43f);
+        pathBuilder.curveToRelative(0.43f, 0.18f, 0.83f, 0.41f, 1.23f, 0.71f);
+        pathBuilder.lineToRelative(0.91f, 0.7f);
+        pathBuilder.lineToRelative(1.06f, -0.43f);
+        pathBuilder.lineToRelative(1.27f, -0.51f);
+        pathBuilder.lineToRelative(0.7f, 1.21f);
+        pathBuilder.lineToRelative(-1.07f, 0.85f);
+        pathBuilder.lineToRelative(-0.89f, 0.7f);
+        pathBuilder.lineToRelative(0.14f, 1.13f);
+        pathBuilder.close();
+        pathBuilder.moveTo(12.0f, 8.0f);
+        pathBuilder.curveToRelative(-2.21f, 0.0f, -4.0f, 1.79f, -4.0f, 4.0f);
+        pathBuilder.reflectiveCurveToRelative(1.79f, 4.0f, 4.0f, 4.0f);
+        pathBuilder.reflectiveCurveToRelative(4.0f, -1.79f, 4.0f, -4.0f);
+        pathBuilder.reflectiveCurveToRelative(-1.79f, -4.0f, -4.0f, -4.0f);
+        pathBuilder.close();
+        pathBuilder.moveTo(12.0f, 14.0f);
+        pathBuilder.curveToRelative(-1.1f, 0.0f, -2.0f, -0.9f, -2.0f, -2.0f);
+        pathBuilder.reflectiveCurveToRelative(0.9f, -2.0f, 2.0f, -2.0f);
+        pathBuilder.reflectiveCurveToRelative(2.0f, 0.9f, 2.0f, 2.0f);
+        pathBuilder.reflectiveCurveToRelative(-0.9f, 2.0f, -2.0f, 2.0f);
+        pathBuilder.close();
+        m3264addPathoIyEayM = builder.m3264addPathoIyEayM(pathBuilder.getNodes(), (r30 & 2) != 0 ? VectorKt.getDefaultFillType() : defaultFillType, (r30 & 4) != 0 ? "" : "", (r30 & 8) != 0 ? null : solidColor, (r30 & 16) != 0 ? 1.0f : 1.0f, (r30 & 32) == 0 ? null : null, (r30 & 64) != 0 ? 1.0f : 1.0f, (r30 & 128) != 0 ? 0.0f : 1.0f, (r30 & 256) != 0 ? VectorKt.getDefaultStrokeLineCap() : m2985getButtKaPHkGw, (r30 & 512) != 0 ? VectorKt.getDefaultStrokeLineJoin() : m2995getBevelLxFBmk8, (r30 & 1024) != 0 ? 4.0f : 1.0f, (r30 & 2048) != 0 ? 0.0f : 0.0f, (r30 & 4096) == 0 ? 0.0f : 1.0f, (r30 & 8192) == 0 ? 0.0f : 0.0f);
+        ImageVector build = m3264addPathoIyEayM.build();
+        _settings = build;
+        Intrinsics.checkNotNull(build);
+        return build;
     }
 }

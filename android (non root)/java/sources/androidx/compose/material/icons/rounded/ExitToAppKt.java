@@ -13,7 +13,19 @@ public final class ExitToAppKt {
         jadx.core.utils.exceptions.JadxRuntimeException: Failed to process method for inline: androidx.compose.ui.graphics.vector.ImageVector.Builder.addPath-oIyEayM$default(androidx.compose.ui.graphics.vector.ImageVector$Builder, java.util.List, int, java.lang.String, androidx.compose.ui.graphics.Brush, float, androidx.compose.ui.graphics.Brush, float, float, int, int, float, float, float, float, int, java.lang.Object):androidx.compose.ui.graphics.vector.ImageVector$Builder
         	at jadx.core.dex.visitors.InlineMethods.processInvokeInsn(InlineMethods.java:74)
         	at jadx.core.dex.visitors.InlineMethods.visit(InlineMethods.java:49)
-        Caused by: java.lang.NullPointerException
+        Caused by: java.util.ConcurrentModificationException
+        	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1768)
+        	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1743)
+        	at jadx.core.dex.instructions.args.SSAVar.removeUse(SSAVar.java:140)
+        	at jadx.core.dex.instructions.args.SSAVar.use(SSAVar.java:133)
+        	at jadx.core.dex.nodes.InsnNode.rebindArgs(InsnNode.java:489)
+        	at jadx.core.dex.instructions.mods.TernaryInsn.rebindArgs(TernaryInsn.java:92)
+        	at jadx.core.dex.nodes.InsnNode.rebindArgs(InsnNode.java:492)
+        	at jadx.core.utils.BlockUtils.replaceInsn(BlockUtils.java:1109)
+        	at jadx.core.utils.BlockUtils.replaceInsn(BlockUtils.java:1118)
+        	at jadx.core.dex.visitors.InlineMethods.inlineMethod(InlineMethods.java:113)
+        	at jadx.core.dex.visitors.InlineMethods.processInvokeInsn(InlineMethods.java:72)
+        	... 1 more
         */
     public static final androidx.compose.ui.graphics.vector.ImageVector getExitToApp(androidx.compose.material.icons.Icons.Rounded r30) {
         /*

@@ -16,7 +16,7 @@ public final class TrieIterator<E> extends AbstractListIterator<E> {
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Type inference failed for: r5v1 */
-    /* JADX WARN: Type inference failed for: r5v2, types: [int, boolean] */
+    /* JADX WARN: Type inference failed for: r5v2, types: [boolean, int] */
     /* JADX WARN: Type inference failed for: r5v3 */
     public TrieIterator(Object[] root, int i, int i2, int i3) {
         super(i, i2);
@@ -31,7 +31,7 @@ public final class TrieIterator<E> extends AbstractListIterator<E> {
     }
 
     /* JADX WARN: Type inference failed for: r0v3 */
-    /* JADX WARN: Type inference failed for: r0v4, types: [int, boolean] */
+    /* JADX WARN: Type inference failed for: r0v4, types: [boolean, int] */
     /* JADX WARN: Type inference failed for: r0v5 */
     public final void reset$runtime_release(Object[] root, int index, int size, int height) {
         Intrinsics.checkNotNullParameter(root, "root");

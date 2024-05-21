@@ -1,7 +1,6 @@
 package androidx.compose.foundation;
 
 import androidx.compose.foundation.AbstractClickableNode;
-import androidx.compose.foundation.gestures.PressGestureScope;
 import androidx.compose.foundation.gestures.ScrollableKt;
 import androidx.compose.foundation.interaction.MutableInteractionSource;
 import androidx.compose.ui.input.pointer.PointerEvent;
@@ -16,7 +15,6 @@ import androidx.compose.ui.node.PointerInputModifierNode;
 import kotlin.Metadata;
 import kotlin.Unit;
 import kotlin.coroutines.Continuation;
-import kotlin.coroutines.intrinsics.IntrinsicsKt;
 import kotlin.jvm.functions.Function0;
 import kotlin.jvm.internal.DefaultConstructorMarker;
 import kotlin.jvm.internal.Intrinsics;
@@ -109,11 +107,34 @@ public abstract class AbstractClickablePointerInputNode extends DelegatingNode i
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
+    /* JADX WARN: Code restructure failed: missing block: B:3:0x0004, code lost:
+    
+        r7 = androidx.compose.foundation.ClickableKt.m209handlePressInteractionEPk0efs(r8, r9, r3, r7.interactionData, r7.delayPressInteraction, r11);
+     */
     /* renamed from: handlePressInteraction-d-4ec7I, reason: not valid java name */
-    public final Object m157handlePressInteractiond4ec7I(PressGestureScope pressGestureScope, long j, Continuation<? super Unit> continuation) {
-        Object m198access$handlePressInteractionEPk0efs;
-        MutableInteractionSource mutableInteractionSource = this.interactionSource;
-        return (mutableInteractionSource == null || (m198access$handlePressInteractionEPk0efs = ClickableKt.m198access$handlePressInteractionEPk0efs(pressGestureScope, j, mutableInteractionSource, this.interactionData, this.delayPressInteraction, continuation)) != IntrinsicsKt.getCOROUTINE_SUSPENDED()) ? Unit.INSTANCE : m198access$handlePressInteractionEPk0efs;
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public final java.lang.Object m157handlePressInteractiond4ec7I(androidx.compose.foundation.gestures.PressGestureScope r8, long r9, kotlin.coroutines.Continuation<? super kotlin.Unit> r11) {
+        /*
+            r7 = this;
+            androidx.compose.foundation.interaction.MutableInteractionSource r3 = r7.interactionSource
+            if (r3 == 0) goto L16
+            androidx.compose.foundation.AbstractClickableNode$InteractionData r4 = r7.interactionData
+            kotlin.jvm.functions.Function0<java.lang.Boolean> r5 = r7.delayPressInteraction
+            r0 = r8
+            r1 = r9
+            r6 = r11
+            java.lang.Object r7 = androidx.compose.foundation.ClickableKt.m198access$handlePressInteractionEPk0efs(r0, r1, r3, r4, r5, r6)
+            java.lang.Object r8 = kotlin.coroutines.intrinsics.IntrinsicsKt.getCOROUTINE_SUSPENDED()
+            if (r7 != r8) goto L16
+            return r7
+        L16:
+            kotlin.Unit r7 = kotlin.Unit.INSTANCE
+            return r7
+        */
+        throw new UnsupportedOperationException("Method not decompiled: androidx.compose.foundation.AbstractClickablePointerInputNode.m157handlePressInteractiond4ec7I(androidx.compose.foundation.gestures.PressGestureScope, long, kotlin.coroutines.Continuation):java.lang.Object");
     }
 
     /* JADX INFO: Access modifiers changed from: protected */

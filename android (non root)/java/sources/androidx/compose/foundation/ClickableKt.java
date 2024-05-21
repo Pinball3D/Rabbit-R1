@@ -40,7 +40,7 @@ import kotlinx.coroutines.CoroutineScopeKt;
 @Metadata(d1 = {"\u0000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\b\n\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010%\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\u001aW\u0010\u0000\u001a\u00020\u0001*\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\b\u0010\u0004\u001a\u0004\u0018\u00010\u00052\b\b\u0002\u0010\u0006\u001a\u00020\u00072\n\b\u0002\u0010\b\u001a\u0004\u0018\u00010\t2\n\b\u0002\u0010\n\u001a\u0004\u0018\u00010\u000b2\f\u0010\f\u001a\b\u0012\u0004\u0012\u00020\u000e0\rø\u0001\u0000ø\u0001\u0001¢\u0006\u0002\b\u000f\u001aE\u0010\u0000\u001a\u00020\u0001*\u00020\u00012\b\b\u0002\u0010\u0006\u001a\u00020\u00072\n\b\u0002\u0010\b\u001a\u0004\u0018\u00010\t2\n\b\u0002\u0010\n\u001a\u0004\u0018\u00010\u000b2\f\u0010\f\u001a\b\u0012\u0004\u0012\u00020\u000e0\rø\u0001\u0000ø\u0001\u0001¢\u0006\u0002\b\u0010\u001a\u0089\u0001\u0010\u0011\u001a\u00020\u0001*\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\b\u0010\u0004\u001a\u0004\u0018\u00010\u00052\b\b\u0002\u0010\u0006\u001a\u00020\u00072\n\b\u0002\u0010\b\u001a\u0004\u0018\u00010\t2\n\b\u0002\u0010\n\u001a\u0004\u0018\u00010\u000b2\n\b\u0002\u0010\u0012\u001a\u0004\u0018\u00010\t2\u0010\b\u0002\u0010\u0013\u001a\n\u0012\u0004\u0012\u00020\u000e\u0018\u00010\r2\u0010\b\u0002\u0010\u0014\u001a\n\u0012\u0004\u0012\u00020\u000e\u0018\u00010\r2\f\u0010\f\u001a\b\u0012\u0004\u0012\u00020\u000e0\rH\u0007ø\u0001\u0000ø\u0001\u0001¢\u0006\u0002\b\u0015\u001aw\u0010\u0011\u001a\u00020\u0001*\u00020\u00012\b\b\u0002\u0010\u0006\u001a\u00020\u00072\n\b\u0002\u0010\b\u001a\u0004\u0018\u00010\t2\n\b\u0002\u0010\n\u001a\u0004\u0018\u00010\u000b2\n\b\u0002\u0010\u0012\u001a\u0004\u0018\u00010\t2\u0010\b\u0002\u0010\u0013\u001a\n\u0012\u0004\u0012\u00020\u000e\u0018\u00010\r2\u0010\b\u0002\u0010\u0014\u001a\n\u0012\u0004\u0012\u00020\u000e\u0018\u00010\r2\f\u0010\f\u001a\b\u0012\u0004\u0012\u00020\u000e0\rH\u0007ø\u0001\u0000ø\u0001\u0001¢\u0006\u0002\b\u0016\u001a¡\u0001\u0010\u0017\u001a\u00020\u0001*\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\b\u0010\u0004\u001a\u0004\u0018\u00010\u00052\u0006\u0010\u0018\u001a\u00020\u00192\u0012\u0010\u001a\u001a\u000e\u0012\u0004\u0012\u00020\u001c\u0012\u0004\u0012\u00020\u001d0\u001b2\f\u0010\u001e\u001a\b\u0012\u0004\u0012\u00020 0\u001f2\b\b\u0002\u0010\u0006\u001a\u00020\u00072\n\b\u0002\u0010\b\u001a\u0004\u0018\u00010\t2\n\b\u0002\u0010\n\u001a\u0004\u0018\u00010\u000b2\n\b\u0002\u0010\u0012\u001a\u0004\u0018\u00010\t2\u0010\b\u0002\u0010\u0013\u001a\n\u0012\u0004\u0012\u00020\u000e\u0018\u00010\r2\f\u0010\f\u001a\b\u0012\u0004\u0012\u00020\u000e0\rH\u0000ø\u0001\u0000ø\u0001\u0001¢\u0006\u0002\b!\u001aC\u0010\"\u001a\u00020\u000e*\u00020#2\u0006\u0010$\u001a\u00020 2\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010%\u001a\u00020&2\f\u0010'\u001a\b\u0012\u0004\u0012\u00020\u00070\rH\u0082@ø\u0001\u0000ø\u0001\u0001ø\u0001\u0001¢\u0006\u0004\b(\u0010)\u0082\u0002\u000b\n\u0005\b¡\u001e0\u0001\n\u0002\b\u0019¨\u0006*"}, d2 = {"clickable", "Landroidx/compose/ui/Modifier;", "interactionSource", "Landroidx/compose/foundation/interaction/MutableInteractionSource;", "indication", "Landroidx/compose/foundation/Indication;", "enabled", "", "onClickLabel", "", "role", "Landroidx/compose/ui/semantics/Role;", "onClick", "Lkotlin/Function0;", "", "clickable-O2vRcR0", "clickable-XHw0xAI", "combinedClickable", "onLongClickLabel", "onLongClick", "onDoubleClick", "combinedClickable-XVZzFYc", "combinedClickable-cJG_KMw", "genericClickableWithoutGesture", "indicationScope", "Lkotlinx/coroutines/CoroutineScope;", "currentKeyPressInteractions", "", "Landroidx/compose/ui/input/key/Key;", "Landroidx/compose/foundation/interaction/PressInteraction$Press;", "keyClickOffset", "Landroidx/compose/runtime/State;", "Landroidx/compose/ui/geometry/Offset;", "genericClickableWithoutGesture-Kqv-Bsg", "handlePressInteraction", "Landroidx/compose/foundation/gestures/PressGestureScope;", "pressPoint", "interactionData", "Landroidx/compose/foundation/AbstractClickableNode$InteractionData;", "delayPressInteraction", "handlePressInteraction-EPk0efs", "(Landroidx/compose/foundation/gestures/PressGestureScope;JLandroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/AbstractClickableNode$InteractionData;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "foundation_release"}, k = 2, mv = {1, 8, 0}, xi = 48)
 /* loaded from: classes.dex */
 public final class ClickableKt {
-    /* renamed from: clickable-XHw0xAI$default */
+    /* renamed from: clickable-XHw0xAI$default, reason: not valid java name */
     public static /* synthetic */ Modifier m202clickableXHw0xAI$default(Modifier modifier, boolean z, String str, Role role, Function0 function0, int i, Object obj) {
         if ((i & 1) != 0) {
             z = true;
@@ -54,7 +54,7 @@ public final class ClickableKt {
         return m201clickableXHw0xAI(modifier, z, str, role, function0);
     }
 
-    /* renamed from: clickable-O2vRcR0$default */
+    /* renamed from: clickable-O2vRcR0$default, reason: not valid java name */
     public static /* synthetic */ Modifier m200clickableO2vRcR0$default(Modifier modifier, MutableInteractionSource mutableInteractionSource, Indication indication, boolean z, String str, Role role, Function0 function0, int i, Object obj) {
         if ((i & 4) != 0) {
             z = true;
@@ -62,7 +62,8 @@ public final class ClickableKt {
         return m199clickableO2vRcR0(modifier, mutableInteractionSource, indication, z, (i & 8) != 0 ? null : str, (i & 16) != 0 ? null : role, function0);
     }
 
-    /* renamed from: handlePressInteraction-EPk0efs */
+    /* JADX INFO: Access modifiers changed from: private */
+    /* renamed from: handlePressInteraction-EPk0efs, reason: not valid java name */
     public static final Object m209handlePressInteractionEPk0efs(PressGestureScope pressGestureScope, long j, MutableInteractionSource mutableInteractionSource, AbstractClickableNode.InteractionData interactionData, Function0<Boolean> function0, Continuation<? super Unit> continuation) {
         Object coroutineScope = CoroutineScopeKt.coroutineScope(new ClickableKt$handlePressInteraction$2(pressGestureScope, j, mutableInteractionSource, interactionData, function0, null), continuation);
         return coroutineScope == IntrinsicsKt.getCOROUTINE_SUSPENDED() ? coroutineScope : Unit.INSTANCE;
@@ -155,7 +156,7 @@ public final class ClickableKt {
         });
     }
 
-    /* renamed from: genericClickableWithoutGesture-Kqv-Bsg */
+    /* renamed from: genericClickableWithoutGesture-Kqv-Bsg, reason: not valid java name */
     public static final Modifier m207genericClickableWithoutGestureKqvBsg(Modifier genericClickableWithoutGesture, MutableInteractionSource interactionSource, Indication indication, CoroutineScope indicationScope, Map<Key, PressInteraction.Press> currentKeyPressInteractions, State<Offset> keyClickOffset, boolean z, String str, Role role, String str2, Function0<Unit> function0, Function0<Unit> onClick) {
         Intrinsics.checkNotNullParameter(genericClickableWithoutGesture, "$this$genericClickableWithoutGesture");
         Intrinsics.checkNotNullParameter(interactionSource, "interactionSource");
@@ -166,7 +167,7 @@ public final class ClickableKt {
         return genericClickableWithoutGesture.then(FocusableKt.focusableInNonTouchMode(HoverableKt.hoverable(IndicationKt.indication(genericClickableWithoutGesture_Kqv_Bsg$detectPressAndClickFromKey(new ClickableSemanticsElement(z, role, str2, function0, str, onClick, null), z, currentKeyPressInteractions, keyClickOffset, indicationScope, onClick, interactionSource), interactionSource, indication), interactionSource, z), z, interactionSource));
     }
 
-    /* renamed from: clickable-XHw0xAI */
+    /* renamed from: clickable-XHw0xAI, reason: not valid java name */
     public static final Modifier m201clickableXHw0xAI(Modifier clickable, final boolean z, final String str, final Role role, final Function0<Unit> onClick) {
         Intrinsics.checkNotNullParameter(clickable, "$this$clickable");
         Intrinsics.checkNotNullParameter(onClick, "onClick");
@@ -234,7 +235,7 @@ public final class ClickableKt {
         });
     }
 
-    /* renamed from: clickable-O2vRcR0 */
+    /* renamed from: clickable-O2vRcR0, reason: not valid java name */
     public static final Modifier m199clickableO2vRcR0(Modifier clickable, final MutableInteractionSource interactionSource, final Indication indication, final boolean z, final String str, final Role role, final Function0<Unit> onClick) {
         Intrinsics.checkNotNullParameter(clickable, "$this$clickable");
         Intrinsics.checkNotNullParameter(interactionSource, "interactionSource");
@@ -267,7 +268,7 @@ public final class ClickableKt {
         return InspectableValueKt.inspectableWrapper(clickable, noInspectorInfo, FocusableKt.focusableInNonTouchMode(HoverableKt.hoverable(IndicationKt.indication(Modifier.INSTANCE, interactionSource, indication), interactionSource, z), z, interactionSource).then(new ClickableElement(interactionSource, z, str, role, onClick, null)));
     }
 
-    /* renamed from: combinedClickable-cJG_KMw */
+    /* renamed from: combinedClickable-cJG_KMw, reason: not valid java name */
     public static final Modifier m205combinedClickablecJG_KMw(Modifier combinedClickable, final boolean z, final String str, final Role role, final String str2, final Function0<Unit> function0, final Function0<Unit> function02, final Function0<Unit> onClick) {
         Intrinsics.checkNotNullParameter(combinedClickable, "$this$combinedClickable");
         Intrinsics.checkNotNullParameter(onClick, "onClick");
@@ -338,7 +339,7 @@ public final class ClickableKt {
         });
     }
 
-    /* renamed from: combinedClickable-XVZzFYc */
+    /* renamed from: combinedClickable-XVZzFYc, reason: not valid java name */
     public static final Modifier m203combinedClickableXVZzFYc(Modifier combinedClickable, final MutableInteractionSource interactionSource, final Indication indication, final boolean z, final String str, final Role role, final String str2, final Function0<Unit> function0, final Function0<Unit> function02, final Function0<Unit> onClick) {
         Intrinsics.checkNotNullParameter(combinedClickable, "$this$combinedClickable");
         Intrinsics.checkNotNullParameter(interactionSource, "interactionSource");
