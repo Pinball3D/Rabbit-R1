@@ -38,7 +38,7 @@ To use the build script, follow these steps:
 Contributions are welcome! Please fork the repository and submit pull requests with your suggested changes.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Thanks to (me) for the tools used in this project.
