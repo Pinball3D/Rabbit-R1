@@ -13,7 +13,8 @@ The Rabbit R1 Launcher Project aims to adapt the Rabbit R1 Launcher for use acro
 ### Requirements
 - **Java:** Ensure Java is installed on your system. Java is used primarily for signing the APKs and should not be used to modify the Smali directly.
 - **Apktool:** For building and reversing Android APKs. Install Apktool from [Apktool official page](https://ibotpeaches.github.io/Apktool/install/).
-- **Uber APK Signer:** This tool is used for signing the built APKs. Download it from [its GitHub repository](https://github.com/patrickfav/uber-apk-signer). (rename file to ```uber-apk-signer.jar``` and place into the cloned repository)
+- **Uber APK Signer:** This tool is used for signing the built APKs. Download it from [its GitHub repository](https://github.com/patrickfav/uber-apk-signer).
+  (rename file to ```uber-apk-signer.jar``` and place into the cloned repository)
 - **jadx:** A Dex to Java decompiler. Install jadx from [GitHub](https://github.com/skylot/jadx).
 
 ### Usage
