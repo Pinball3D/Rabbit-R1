@@ -29,7 +29,7 @@ esac
 apktool b "${build_type}/smali" -o "${build_type}/apk/Rabbit R1 ${build_type}.apk"
 
 # Sign the APK
-java -jar "/Users/Andrew/Downloads/Uber APK Signer 1.jar" --apks "${build_type}/apk/Rabbit R1 ${build_type}.apk"
+java -jar "./uber-apk-signer.jar" --apks "${build_type}/apk/Rabbit R1 ${build_type}.apk"
 
 # Rename the signed APK
 mv "${build_type}/apk/Rabbit R1 ${build_type}-aligned-debugSigned.apk" "${build_type}/apk/Rabbit R1 ${build_type}.apk"
